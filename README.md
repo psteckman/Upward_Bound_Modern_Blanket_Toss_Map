@@ -1,4 +1,4 @@
-##Website For: Upward Bound Modern Blanket Toss Map
+##Website For:
 
 This repository is for mapping the Upward Bound Communities and highlighting the particular communities that will be participating in the Modern Blanket Toss.
 
