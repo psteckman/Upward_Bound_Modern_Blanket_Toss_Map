@@ -5,10 +5,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>-1368204.04046003986150026</xmin>
-            <ymin>304948.15466907923109829</ymin>
-            <xmax>1608628.56323056179098785</xmax>
-            <ymax>1993215.75024041160941124</ymax>
+            <xmin>-1322523.74475123267620802</xmin>
+            <ymin>289721.38943281047977507</ymin>
+            <xmax>1654308.85893936920911074</xmax>
+            <ymax>1977988.98500414285808802</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -27,10 +27,10 @@
             <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tl_2013_us_state20140519113655414"/>
         </layer_coordinate_transform_info>
     </mapcanvas>
-    <legend updateDrawingOrder="true" activeLayer="UBCommunities20140520134314909">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="MBTSites" showFeatureCount="0">
+    <legend updateDrawingOrder="true" activeLayer="alaska_250000_ln20140520143016977">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="MBTSites" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="MBTSites20140520134302704" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="MBTSites20140520134302704" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="UBCommunities" showFeatureCount="0">
@@ -63,14 +63,14 @@
                 <legendlayerfile isInOverview="0" layerid="Natural_Earth_I_with_Shaded_Relief__Water__and_Drainages20140520153824973" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Blue_Marble" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Blue_Marble" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Blue_Marble20140520153617227" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="Blue_Marble20140520153617227" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BDL WMS" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BDL WMS" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="BDL_WMS20140519093238703" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="BDL_WMS20140519093238703" visible="1"/>
             </filegroup>
         </legendlayer>
     </legend>
@@ -592,7 +592,7 @@
             </ComposerMap>
         </Composition>
     </Composer>
-    <Composer title="Rough Draft NE" visible="1">
+    <Composer title="Rough Draft NE" visible="0">
         <Composition snapGridTolerance="2" gridVisible="0" printResolution="300" paperWidth="297" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="210" alignmentSnapTolerance="2" smartGuides="1" printAsRaster="0" generateWorldFile="0">
             <symbol alpha="1" type="fill" name="">
                 <layer pass="0" class="SimpleFill" locked="0">
@@ -606,8 +606,9 @@
                     <prop k="width_border" v="0.26"/>
                 </layer>
             </symbol>
-            <ComposerScaleBar penColor="#ffffff" style="Single Box" numMapUnitsPerScaleBarUnit="1000" alignment="0" brushColor="#000000" numSegments="4" segmentMillimeters="25.057" fontColor="#ffffff" font="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" numUnitsPerSegment="250000" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" height="3" mapId="0" boxContentSpace="1" unitLabel="km">
-                <ComposerItem width="118.678" x="89.1611" transparency="0" y="196.548" height="12.2" positionMode="0" frame="false" outlineWidth="0.3" zValue="5" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{25b9168d-2dbb-45db-858f-276f4df5e4df}" id="" background="true" blendMode="0" positionLock="false">
+            <SnapLine y1="0" x1="0" y2="0" x2="0"/>
+            <ComposerScaleBar penColor="#ffffff" style="Single Box" numMapUnitsPerScaleBarUnit="1000" alignment="0" brushColor="#000000" numSegments="4" segmentMillimeters="25.0634" fontColor="#ffffff" font="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" numUnitsPerSegment="250000" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" height="3" mapId="0" boxContentSpace="1" unitLabel="km">
+                <ComposerItem width="118.704" x="89.1481" transparency="0" y="196.469" height="12.2" positionMode="0" frame="false" outlineWidth="0.3" zValue="15" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{4e1589d1-4571-483f-b78f-c6d347b40779}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="0" blue="0" green="0"/>
                 </ComposerItem>
@@ -621,13 +622,13 @@
                     <style marginTop="2" marginLeft="2" name="symbolLabel" font="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
                 </styles>
                 <Model autoUpdate="1">
-                    <LayerItem layerId="MBTSites20140520134302704" userText="MBT Sites" style="hidden" text="MBT Sites" showFeatureCount="0">
-                        <VectorClassificationItemNg userText="" text="MBT Sites">
+                    <LayerItem layerId="UBCommunities20140520134314909" userText="UB Communities" style="hidden" text="UB Communities" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="MBT Site">
                             <symbols>
                                 <symbol alpha="1" type="marker" name="classificationSymbol">
                                     <layer pass="0" class="SimpleMarker" locked="0">
                                         <prop k="angle" v="0"/>
-                                        <prop k="color" v="227,26,28,255"/>
+                                        <prop k="color" v="255,0,0,255"/>
                                         <prop k="color_border" v="0,0,0,255"/>
                                         <prop k="horizontal_anchor_point" v="1"/>
                                         <prop k="name" v="regular_star"/>
@@ -644,9 +645,7 @@
                                 </symbol>
                             </symbols>
                         </VectorClassificationItemNg>
-                    </LayerItem>
-                    <LayerItem layerId="UBCommunities20140520134314909" userText="UB Communities" style="hidden" text="UB Communities" showFeatureCount="0">
-                        <VectorClassificationItemNg userText="" text="UB Communities">
+                        <VectorClassificationItemNg userText="" text="UB Community">
                             <symbols>
                                 <symbol alpha="1" type="marker" name="classificationSymbol">
                                     <layer pass="0" class="SimpleMarker" locked="0">
@@ -691,8 +690,8 @@
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
-                    <LayerItem layerId="Major_Roads_ln20140519095542460" userText="Major Roads" style="hidden" text="Major Roads" showFeatureCount="0">
-                        <VectorClassificationItemNg userText="" text="Major Roads">
+                    <LayerItem layerId="Major_Roads_ln20140519095542460" userText="" style="hidden" text="Major_Roads_ln" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="Major Roads" text="Major Roads">
                             <symbols>
                                 <symbol alpha="1" type="line" name="classificationSymbol">
                                     <layer pass="0" class="SimpleLine" locked="0">
@@ -728,26 +727,38 @@
                         </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="44.6" x="252.7" transparency="0" y="1.24345e-14" height="30" positionMode="0" frame="true" outlineWidth="0.3" zValue="4" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{6515a57b-36e5-47af-8614-4b529361398d}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="44.6" x="252.4" transparency="0" y="-7.10543e-15" height="30.7969" positionMode="0" frame="true" outlineWidth="0.3" zValue="14" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{025d706e-dc06-461c-904b-08a9e2ad25d0}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLegend>
-            <ComposerPicture pictureRotation="0" pictureWidth="49.8438" file="../../../Desktop/GINA logo.png" pictureHeight="11.2979" mapId="-1">
-                <ComposerItem width="49.8438" x="-2.13163e-14" transparency="0" y="1.24345e-14" height="20.2104" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{7aa622b1-1b63-4b6f-aa25-26817ba620ce}" id="" background="true" blendMode="0" positionLock="false">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="255" red="0" blue="0" green="0"/>
-                </ComposerItem>
-            </ComposerPicture>
             <ComposerArrow startMarkerFile="" arrowHeadWidth="4" endMarkerFile="" outlineWidth="1" markerMode="0">
                 <ArrowColor alpha="255" red="0" blue="0" green="0"/>
-                <StartPoint x="304.006" y="184.944"/>
-                <StopPoint x="287.073" y="184.944"/>
-                <ComposerItem width="21.9333" x="284.573" transparency="0" y="182.444" height="5" positionMode="0" frame="false" outlineWidth="0" zValue="2" itemRotation="68" lastValidViewScaleFactor="3.77953" uuid="{631a7c3e-157a-4705-be06-70884999caee}" id="" background="true" blendMode="0" positionLock="false">
+                <StartPoint x="304.271" y="182.033"/>
+                <StopPoint x="286.015" y="182.033"/>
+                <ComposerItem width="23.2562" x="283.515" transparency="0" y="179.533" height="5" positionMode="0" frame="false" outlineWidth="0" zValue="13" itemRotation="68" lastValidViewScaleFactor="3.77953" uuid="{57d9ea5b-ed8e-4ce7-9823-5c92ce9784ef}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerArrow>
+            <ComposerPicture pictureRotation="0" pictureWidth="33.7042" file="../../../Desktop/Logos/UB logo 2.jpg" pictureHeight="15.8378" mapId="-1">
+                <ComposerItem width="33.7042" x="0" transparency="0" y="25.075" height="17.5646" positionMode="0" frame="false" outlineWidth="0.3" zValue="12" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{0abf14a6-32f8-4d4b-859e-dcfd584c2001}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
+            <ComposerPicture pictureRotation="0" pictureWidth="30.9285" file="../../../Desktop/Logos/epscor.png" pictureHeight="13.3313" mapId="-1">
+                <ComposerItem width="33.7042" x="0" transparency="0" y="11.7437" height="13.3313" positionMode="0" frame="false" outlineWidth="0.3" zValue="9" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{e5a526ad-250b-4885-aec2-409092dbf150}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
+            <ComposerPicture pictureRotation="0" pictureWidth="33.7042" file="../../../Desktop/Logos/GINA logo.png" pictureHeight="7.63961" mapId="-1">
+                <ComposerItem width="33.7042" x="0" transparency="0" y="0" height="11.7438" positionMode="0" frame="false" outlineWidth="0.3" zValue="7" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{dfe5eef8-4b1a-4e15-b333-bfd9196d64aa}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
             <ComposerMap mapRotation="0" keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Cache" drawCanvasItems="true">
                 <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewCentered="false" overviewInverted="false">
                     <symbol alpha="0.3" type="fill" name="">
@@ -763,7 +774,7 @@
                         </layer>
                     </symbol>
                 </overviewFrame>
-                <Extent ymin="304948.15466907923109829" xmin="-1368204.04046003986150026" ymax="2409779.28859172761440277" xmax="1608628.56323056179098785"/>
+                <Extent ymin="289721.38943281047977507" xmin="-1322523.74475123267620802" ymax="2394552.52335545886307955" xmax="1654308.85893936920911074"/>
                 <LayerSet/>
                 <Grid gridStyle="0" crossLength="3" gridFramePenThickness="0.5" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
                     <framePenColor alpha="255" red="0" blue="0" green="0"/>
@@ -790,14 +801,14 @@
                     </Annotation>
                 </Grid>
                 <AtlasMap fixedScale="0" atlasDriven="0" margin="0.10000000000000001"/>
-                <ComposerItem width="297" x="0" transparency="0" y="-2.22045e-16" height="210" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{10920928-9704-4c66-90fa-6636b9717356}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="297" x="0" transparency="0" y="-4.44089e-16" height="210" positionMode="0" frame="false" outlineWidth="0.3" zValue="6" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{eb709429-cae9-4fe3-b64e-ded4a38a3145}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerMap>
         </Composition>
     </Composer>
-    <Composer title="Rough Draft BM" visible="1">
+    <Composer title="Rough Draft BM" visible="0">
         <Composition snapGridTolerance="2" gridVisible="0" printResolution="300" paperWidth="297" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="210" alignmentSnapTolerance="2" smartGuides="1" printAsRaster="0" generateWorldFile="0">
             <symbol alpha="1" type="fill" name="">
                 <layer pass="0" class="SimpleFill" locked="0">
@@ -942,7 +953,7 @@
                 <ArrowColor alpha="255" red="255" blue="255" green="255"/>
                 <StartPoint x="302.154" y="187.59"/>
                 <StopPoint x="286.808" y="187.59"/>
-                <ComposerItem width="20.3458" x="284.308" transparency="0" y="185.09" height="5" positionMode="0" frame="false" outlineWidth="0" zValue="3" itemRotation="68" lastValidViewScaleFactor="3.77953" uuid="{aca76ae7-0f6f-4623-a612-db566b3bdabd}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="20.346" x="284.308" transparency="0" y="185.09" height="5" positionMode="0" frame="false" outlineWidth="0" zValue="3" itemRotation="68" lastValidViewScaleFactor="3.77953" uuid="{aca76ae7-0f6f-4623-a612-db566b3bdabd}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -996,6 +1007,436 @@
                 </Grid>
                 <AtlasMap fixedScale="0" atlasDriven="0" margin="0.10000000000000001"/>
                 <ComposerItem width="297" x="0" transparency="0" y="0" height="210" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{86361550-012a-45f3-b8ce-8aefe6fe8f02}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerMap>
+        </Composition>
+    </Composer>
+    <Composer title="Rough Draft BM 2" visible="0">
+        <Composition snapGridTolerance="2" gridVisible="0" printResolution="300" paperWidth="297" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="210" alignmentSnapTolerance="2" smartGuides="1" printAsRaster="0" generateWorldFile="0">
+            <symbol alpha="1" type="fill" name="">
+                <layer pass="0" class="SimpleFill" locked="0">
+                    <prop k="border_width_unit" v="MM"/>
+                    <prop k="color" v="255,255,255,255"/>
+                    <prop k="color_border" v="0,0,0,255"/>
+                    <prop k="offset" v="0,0"/>
+                    <prop k="offset_unit" v="MM"/>
+                    <prop k="style" v="solid"/>
+                    <prop k="style_border" v="no"/>
+                    <prop k="width_border" v="0.26"/>
+                </layer>
+            </symbol>
+            <ComposerLegend symbolWidth="7" title="" boxSpace="2" splitLayer="0" equalColumnWidth="0" symbolHeight="4" wmsLegendHeight="25" wrapChar="" fontColor="#000000" columnSpace="2" wmsLegendWidth="50" columnCount="1">
+                <styles>
+                    <style marginBottom="2" name="title" font="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0"/>
+                    <style marginTop="2" name="group" font="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0"/>
+                    <style marginTop="2" name="subgroup" font="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
+                    <style marginTop="2" name="symbol" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+                    <style marginTop="2" marginLeft="2" name="symbolLabel" font="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
+                </styles>
+                <Model autoUpdate="1">
+                    <LayerItem layerId="UBCommunities20140520134314909" userText="" style="hidden" text="UBCommunities" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="MBT Site">
+                            <symbols>
+                                <symbol alpha="1" type="marker" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleMarker" locked="0">
+                                        <prop k="angle" v="0"/>
+                                        <prop k="color" v="255,0,0,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="horizontal_anchor_point" v="1"/>
+                                        <prop k="name" v="regular_star"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="outline_style" v="solid"/>
+                                        <prop k="outline_width" v="0"/>
+                                        <prop k="outline_width_unit" v="MM"/>
+                                        <prop k="scale_method" v="area"/>
+                                        <prop k="size" v="5"/>
+                                        <prop k="size_unit" v="MM"/>
+                                        <prop k="vertical_anchor_point" v="1"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                        <VectorClassificationItemNg userText="" text="UB Community">
+                            <symbols>
+                                <symbol alpha="1" type="marker" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleMarker" locked="0">
+                                        <prop k="angle" v="0"/>
+                                        <prop k="color" v="255,255,0,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="horizontal_anchor_point" v="1"/>
+                                        <prop k="name" v="regular_star"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="outline_style" v="solid"/>
+                                        <prop k="outline_width" v="0"/>
+                                        <prop k="outline_width_unit" v="MM"/>
+                                        <prop k="scale_method" v="area"/>
+                                        <prop k="size" v="5"/>
+                                        <prop k="size_unit" v="MM"/>
+                                        <prop k="vertical_anchor_point" v="1"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
+                    <LayerItem layerId="alaska_250000_ln20140520143016977" userText="Alaska State Line" style="hidden" text="Alaska State Line" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="Alaska State Line">
+                            <symbols>
+                                <symbol alpha="1" type="line" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleLine" locked="0">
+                                        <prop k="capstyle" v="square"/>
+                                        <prop k="color" v="0,0,0,255"/>
+                                        <prop k="customdash" v="5;2"/>
+                                        <prop k="customdash_unit" v="MM"/>
+                                        <prop k="draw_inside_polygon" v="0"/>
+                                        <prop k="joinstyle" v="bevel"/>
+                                        <prop k="offset" v="0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="penstyle" v="solid"/>
+                                        <prop k="use_custom_dash" v="0"/>
+                                        <prop k="width" v="0.5"/>
+                                        <prop k="width_unit" v="MM"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
+                    <LayerItem layerId="Major_Roads_ln20140519095542460" userText="Major Roads" style="hidden" text="Major Roads" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="Major Roads">
+                            <symbols>
+                                <symbol alpha="1" type="line" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleLine" locked="0">
+                                        <prop k="capstyle" v="square"/>
+                                        <prop k="color" v="0,0,0,255"/>
+                                        <prop k="customdash" v="5;2"/>
+                                        <prop k="customdash_unit" v="MM"/>
+                                        <prop k="draw_inside_polygon" v="0"/>
+                                        <prop k="joinstyle" v="bevel"/>
+                                        <prop k="offset" v="0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="penstyle" v="solid"/>
+                                        <prop k="use_custom_dash" v="0"/>
+                                        <prop k="width" v="1.3"/>
+                                        <prop k="width_unit" v="MM"/>
+                                    </layer>
+                                    <layer pass="0" class="SimpleLine" locked="0">
+                                        <prop k="capstyle" v="square"/>
+                                        <prop k="color" v="255,255,0,255"/>
+                                        <prop k="customdash" v="5;2"/>
+                                        <prop k="customdash_unit" v="MM"/>
+                                        <prop k="draw_inside_polygon" v="0"/>
+                                        <prop k="joinstyle" v="bevel"/>
+                                        <prop k="offset" v="0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="penstyle" v="dash"/>
+                                        <prop k="use_custom_dash" v="0"/>
+                                        <prop k="width" v="0.3"/>
+                                        <prop k="width_unit" v="MM"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
+                </Model>
+                <ComposerItem width="44.6" x="252.4" transparency="0" y="4.44089e-15" height="30" positionMode="0" frame="true" outlineWidth="0.3" zValue="7" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{5e70a294-5acf-49aa-85bc-5ef1bf67ddd8}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLegend>
+            <ComposerScaleBar penColor="#ffffff" style="Single Box" numMapUnitsPerScaleBarUnit="1000" alignment="0" brushColor="#000000" numSegments="4" segmentMillimeters="25.0634" fontColor="#ffffff" font="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" numUnitsPerSegment="250000" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" height="3" mapId="0" boxContentSpace="1" unitLabel="km">
+                <ComposerItem width="118.704" x="89.1481" transparency="0" y="197.007" height="12.2" positionMode="0" frame="false" outlineWidth="0.3" zValue="6" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{e7251969-3e9c-4b40-a75d-2f05b361393b}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="0" blue="0" green="0"/>
+                </ComposerItem>
+            </ComposerScaleBar>
+            <ComposerArrow startMarkerFile="" arrowHeadWidth="4" endMarkerFile="" outlineWidth="1" markerMode="0">
+                <ArrowColor alpha="255" red="255" blue="255" green="255"/>
+                <StartPoint x="302.468" y="185.201"/>
+                <StopPoint x="284.137" y="185.201"/>
+                <ComposerItem width="23.3314" x="281.637" transparency="0" y="182.701" height="5" positionMode="0" frame="false" outlineWidth="0" zValue="5" itemRotation="68" lastValidViewScaleFactor="3.70948" uuid="{237886d8-9054-4404-a26c-d2249a76ad26}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="0" red="255" blue="255" green="255"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerArrow>
+            <ComposerPicture pictureRotation="0" pictureWidth="29.4212" file="../../../Desktop/Logos/UB logo 2.jpg" pictureHeight="13.8252" mapId="-1">
+                <ComposerItem width="34.8524" x="0" transparency="0" y="25.4938" height="13.8252" positionMode="0" frame="false" outlineWidth="0.3" zValue="4" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{f8c74241-0f76-419e-9c78-ac86c52471fd}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
+            <ComposerPicture pictureRotation="0" pictureWidth="29.5728" file="../../../Desktop/Logos/epscor.png" pictureHeight="12.7469" mapId="-1">
+                <ComposerItem width="34.8524" x="0" transparency="0" y="12.7469" height="12.7469" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{ab30897f-5f6a-4c50-9796-ea2b4ab09669}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
+            <ComposerPicture pictureRotation="0" pictureWidth="34.8524" file="../../../Desktop/Logos/GINA logo.png" pictureHeight="7.89988" mapId="-1">
+                <ComposerItem width="34.8524" x="0" transparency="0" y="0" height="12.7469" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{5d702970-bf34-499f-b047-cd7b3b5f7da6}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
+            <ComposerMap mapRotation="0" keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Cache" drawCanvasItems="true">
+                <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewCentered="false" overviewInverted="false">
+                    <symbol alpha="0.3" type="fill" name="">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="255,0,0,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </overviewFrame>
+                <Extent ymin="289721.38943281047977507" xmin="-1322523.74475123267620802" ymax="2394552.52335545886307955" xmax="1654308.85893936920911074"/>
+                <LayerSet/>
+                <Grid gridStyle="0" crossLength="3" gridFramePenThickness="0.5" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+                    <framePenColor alpha="255" red="0" blue="0" green="0"/>
+                    <frameFillColor1 alpha="255" red="255" blue="255" green="255"/>
+                    <frameFillColor2 alpha="255" red="0" blue="0" green="0"/>
+                    <symbol alpha="1" type="line" name="">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="flat"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.3"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0">
+                        <fontColor alpha="255" red="0" blue="0" green="0"/>
+                    </Annotation>
+                </Grid>
+                <AtlasMap fixedScale="0" atlasDriven="0" margin="0.10000000000000001"/>
+                <ComposerItem width="297" x="0" transparency="0" y="-2.22045e-16" height="210" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{40599e0b-0ae6-4430-9378-03ab40d57279}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerMap>
+        </Composition>
+    </Composer>
+    <Composer title="Rough Draft WMS 1" visible="0">
+        <Composition snapGridTolerance="2" gridVisible="0" printResolution="300" paperWidth="297" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="210" alignmentSnapTolerance="2" smartGuides="1" printAsRaster="0" generateWorldFile="0">
+            <symbol alpha="1" type="fill" name="">
+                <layer pass="0" class="SimpleFill" locked="0">
+                    <prop k="border_width_unit" v="MM"/>
+                    <prop k="color" v="255,255,255,255"/>
+                    <prop k="color_border" v="0,0,0,255"/>
+                    <prop k="offset" v="0,0"/>
+                    <prop k="offset_unit" v="MM"/>
+                    <prop k="style" v="solid"/>
+                    <prop k="style_border" v="no"/>
+                    <prop k="width_border" v="0.26"/>
+                </layer>
+            </symbol>
+            <ComposerScaleBar penColor="#ffffff" style="Single Box" numMapUnitsPerScaleBarUnit="1000" alignment="0" brushColor="#000000" numSegments="4" segmentMillimeters="25.0634" fontColor="#ffffff" font="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" numUnitsPerSegment="250000" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" height="3" mapId="0" boxContentSpace="1" unitLabel="km">
+                <ComposerItem width="118.704" x="89.1481" transparency="0" y="195.643" height="12.2" positionMode="0" frame="false" outlineWidth="0.3" zValue="7" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{1f27aead-310f-447e-9eeb-1b5e5bf06d70}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="0" blue="0" green="0"/>
+                </ComposerItem>
+            </ComposerScaleBar>
+            <ComposerArrow startMarkerFile="" arrowHeadWidth="4" endMarkerFile="" outlineWidth="1" markerMode="0">
+                <ArrowColor alpha="255" red="255" blue="255" green="255"/>
+                <StartPoint x="304.714" y="184.392"/>
+                <StopPoint x="286.67" y="184.392"/>
+                <ComposerItem width="23.0448" x="284.17" transparency="0" y="181.892" height="5" positionMode="0" frame="false" outlineWidth="0" zValue="6" itemRotation="68" lastValidViewScaleFactor="3.70948" uuid="{4b19e3a3-dfd9-4123-8c5a-90b53f810535}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="0" red="255" blue="255" green="255"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerArrow>
+            <ComposerLegend symbolWidth="7" title="" boxSpace="2" splitLayer="0" equalColumnWidth="0" symbolHeight="4" wmsLegendHeight="25" wrapChar="" fontColor="#000000" columnSpace="2" wmsLegendWidth="50" columnCount="1">
+                <styles>
+                    <style marginBottom="2" name="title" font="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0"/>
+                    <style marginTop="2" name="group" font="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0"/>
+                    <style marginTop="2" name="subgroup" font="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
+                    <style marginTop="2" name="symbol" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+                    <style marginTop="2" marginLeft="2" name="symbolLabel" font="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
+                </styles>
+                <Model autoUpdate="1">
+                    <LayerItem layerId="UBCommunities20140520134314909" userText="" style="hidden" text="UBCommunities" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="MBT Site">
+                            <symbols>
+                                <symbol alpha="1" type="marker" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleMarker" locked="0">
+                                        <prop k="angle" v="0"/>
+                                        <prop k="color" v="255,0,0,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="horizontal_anchor_point" v="1"/>
+                                        <prop k="name" v="regular_star"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="outline_style" v="solid"/>
+                                        <prop k="outline_width" v="0"/>
+                                        <prop k="outline_width_unit" v="MM"/>
+                                        <prop k="scale_method" v="area"/>
+                                        <prop k="size" v="5"/>
+                                        <prop k="size_unit" v="MM"/>
+                                        <prop k="vertical_anchor_point" v="1"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                        <VectorClassificationItemNg userText="" text="UB Community">
+                            <symbols>
+                                <symbol alpha="1" type="marker" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleMarker" locked="0">
+                                        <prop k="angle" v="0"/>
+                                        <prop k="color" v="255,255,0,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="horizontal_anchor_point" v="1"/>
+                                        <prop k="name" v="regular_star"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="outline_style" v="solid"/>
+                                        <prop k="outline_width" v="0"/>
+                                        <prop k="outline_width_unit" v="MM"/>
+                                        <prop k="scale_method" v="area"/>
+                                        <prop k="size" v="5"/>
+                                        <prop k="size_unit" v="MM"/>
+                                        <prop k="vertical_anchor_point" v="1"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
+                    <LayerItem layerId="alaska_250000_ln20140520143016977" userText="Alaska State Line" style="hidden" text="Alaska State Line" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="Alaska State Line">
+                            <symbols>
+                                <symbol alpha="1" type="line" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleLine" locked="0">
+                                        <prop k="capstyle" v="square"/>
+                                        <prop k="color" v="0,0,255,255"/>
+                                        <prop k="customdash" v="5;2"/>
+                                        <prop k="customdash_unit" v="MM"/>
+                                        <prop k="draw_inside_polygon" v="0"/>
+                                        <prop k="joinstyle" v="bevel"/>
+                                        <prop k="offset" v="0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="penstyle" v="solid"/>
+                                        <prop k="use_custom_dash" v="0"/>
+                                        <prop k="width" v="0.5"/>
+                                        <prop k="width_unit" v="MM"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
+                    <LayerItem layerId="Major_Roads_ln20140519095542460" userText="Major Roads" style="hidden" text="Major Roads" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="Major Roads">
+                            <symbols>
+                                <symbol alpha="1" type="line" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleLine" locked="0">
+                                        <prop k="capstyle" v="square"/>
+                                        <prop k="color" v="0,0,0,255"/>
+                                        <prop k="customdash" v="5;2"/>
+                                        <prop k="customdash_unit" v="MM"/>
+                                        <prop k="draw_inside_polygon" v="0"/>
+                                        <prop k="joinstyle" v="bevel"/>
+                                        <prop k="offset" v="0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="penstyle" v="solid"/>
+                                        <prop k="use_custom_dash" v="0"/>
+                                        <prop k="width" v="1.3"/>
+                                        <prop k="width_unit" v="MM"/>
+                                    </layer>
+                                    <layer pass="0" class="SimpleLine" locked="0">
+                                        <prop k="capstyle" v="square"/>
+                                        <prop k="color" v="255,255,0,255"/>
+                                        <prop k="customdash" v="5;2"/>
+                                        <prop k="customdash_unit" v="MM"/>
+                                        <prop k="draw_inside_polygon" v="0"/>
+                                        <prop k="joinstyle" v="bevel"/>
+                                        <prop k="offset" v="0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="penstyle" v="dash"/>
+                                        <prop k="use_custom_dash" v="0"/>
+                                        <prop k="width" v="0.3"/>
+                                        <prop k="width_unit" v="MM"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
+                </Model>
+                <ComposerItem width="44.6" x="252.4" transparency="0" y="0" height="30" positionMode="0" frame="true" outlineWidth="0.3" zValue="5" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{4d86ee23-8037-42d5-9021-bbf77da525f8}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLegend>
+            <ComposerPicture pictureRotation="0" pictureWidth="27.7001" file="../../../Desktop/Logos/UB logo 2.jpg" pictureHeight="13.0165" mapId="-1">
+                <ComposerItem width="36.2003" x="0" transparency="0" y="26.5721" height="13.0165" positionMode="0" frame="false" outlineWidth="0.3" zValue="4" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{711a9997-2994-4ecb-b52d-dc6e3ad4516d}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
+            <ComposerPicture pictureRotation="0" pictureWidth="30.1982" file="../../../Desktop/Logos/epscor.png" pictureHeight="13.0165" mapId="-1">
+                <ComposerItem width="36.2003" x="0" transparency="0" y="13.5556" height="13.0165" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{3ba646b8-d6cb-4df0-b50b-1c48c5c6908a}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
+            <ComposerPicture pictureRotation="0" pictureWidth="36.2003" file="../../../Desktop/Logos/GINA logo.png" pictureHeight="8.2054" mapId="-1">
+                <ComposerItem width="36.2003" x="0" transparency="0" y="0" height="13.5556" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{398d13ef-9b34-48dd-88bc-3d5a61309fc1}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
+            <ComposerMap mapRotation="0" keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Cache" drawCanvasItems="true">
+                <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewCentered="false" overviewInverted="false">
+                    <symbol alpha="0.3" type="fill" name="">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="255,0,0,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </overviewFrame>
+                <Extent ymin="289721.38943281047977507" xmin="-1322523.74475123267620802" ymax="2372936.53737412858754396" xmax="1654308.85893936920911074"/>
+                <LayerSet/>
+                <Grid gridStyle="0" crossLength="3" gridFramePenThickness="0.5" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+                    <framePenColor alpha="255" red="0" blue="0" green="0"/>
+                    <frameFillColor1 alpha="255" red="255" blue="255" green="255"/>
+                    <frameFillColor2 alpha="255" red="0" blue="0" green="0"/>
+                    <symbol alpha="1" type="line" name="">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="flat"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.3"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0">
+                        <fontColor alpha="255" red="0" blue="0" green="0"/>
+                    </Annotation>
+                </Grid>
+                <AtlasMap fixedScale="0" atlasDriven="0" margin="0.10000000000000001"/>
+                <ComposerItem width="297" x="0" transparency="0" y="-1.22465e-16" height="207.843" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{ee7608ec-4f5d-4d62-9c3f-87f4d4d8c7c9}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1285,7 +1726,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>MBTSites20140520134302704</id>
             <datasource>../../../Downloads/Alaska SHP's/UB Comm/MBTSites.shp</datasource>
             <title></title>
@@ -1748,7 +2189,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>UBCommunities20140520134314909</id>
-            <datasource>../../../Downloads/Alaska SHP's/UB Comm/UBCommunities.shp|layerid=0|subset="Name" = "Shishmaref"</datasource>
+            <datasource>../../../Downloads/Alaska SHP's/UB Comm/UBCommunities.shp|layerid=0</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -1770,9 +2211,31 @@
             <provider encoding="System">ogr</provider>
             <previewExpression>COALESCE( "Name", '&lt;NULL>' )</previewExpression>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 attr="MBT Site" symbollevels="0" type="categorizedSymbol">
+                <categories>
+                    <category symbol="0" value="0" label="MBT Site"/>
+                    <category symbol="1" value="1" label="UB Community"/>
+                </categories>
                 <symbols>
                     <symbol alpha="1" type="marker" name="0">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="255,0,0,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="horizontal_anchor_point" v="1"/>
+                            <prop k="name" v="regular_star"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="outline_style" v="solid"/>
+                            <prop k="outline_width" v="0"/>
+                            <prop k="outline_width_unit" v="MM"/>
+                            <prop k="scale_method" v="area"/>
+                            <prop k="size" v="5"/>
+                            <prop k="size_unit" v="MM"/>
+                            <prop k="vertical_anchor_point" v="1"/>
+                        </layer>
+                    </symbol>
+                    <symbol alpha="1" type="marker" name="1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="255,255,0,255"/>
@@ -1791,6 +2254,28 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <source-symbol>
+                    <symbol alpha="1" type="marker" name="0">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="227,26,28,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="horizontal_anchor_point" v="1"/>
+                            <prop k="name" v="regular_star"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="outline_style" v="solid"/>
+                            <prop k="outline_width" v="0"/>
+                            <prop k="outline_width_unit" v="MM"/>
+                            <prop k="scale_method" v="area"/>
+                            <prop k="size" v="4"/>
+                            <prop k="size_unit" v="MM"/>
+                            <prop k="vertical_anchor_point" v="1"/>
+                        </layer>
+                    </symbol>
+                </source-symbol>
+                <colorramp type="randomcolors" name="[source]"/>
+                <invertedcolorramp value="0"/>
                 <rotation/>
                 <sizescale scalemethod="area"/>
             </renderer-v2>
@@ -1801,7 +2286,7 @@
                 <property key="labeling/blendMode" value="0"/>
                 <property key="labeling/bufferBlendMode" value="0"/>
                 <property key="labeling/bufferColorA" value="255"/>
-                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorB" value="0"/>
                 <property key="labeling/bufferColorG" value="255"/>
                 <property key="labeling/bufferColorR" value="255"/>
                 <property key="labeling/bufferDraw" value="true"/>
@@ -1825,7 +2310,7 @@
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="11"/>
+                <property key="labeling/fontSize" value="13"/>
                 <property key="labeling/fontSizeInMapUnits" value="false"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
@@ -1938,6 +2423,7 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
+                <edittype labelontop="0" editable="1" type="0" name="MBT Site"/>
                 <edittype labelontop="0" editable="1" type="0" name="Name"/>
                 <edittype labelontop="0" editable="1" type="0" name="id"/>
             </edittypes>
@@ -1950,7 +2436,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>alaska_250000_ln20140520143016977</id>
             <datasource>Z:\asgdc_2012\GIS_BASE_20120425_VOL1_SHP\Physical_Feature\alaska_250000_ln.shp</datasource>
             <title></title>
@@ -1979,7 +2465,7 @@
                     <symbol alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
-                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="color" v="0,0,255,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="draw_inside_polygon" v="0"/>
