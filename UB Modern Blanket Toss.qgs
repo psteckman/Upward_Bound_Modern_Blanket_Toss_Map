@@ -5,10 +5,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>-421518.9548968774615787</xmin>
-            <ymin>1225564.7246987666003406</ymin>
-            <xmax>-420327.5108344599721022</xmax>
-            <ymax>1226240.43498224765062332</ymax>
+            <xmin>-543287.26107872079592198</xmin>
+            <ymin>1858392.02212364878505468</ymin>
+            <xmax>-539498.75249740993604064</xmax>
+            <ymax>1860540.62002110574394464</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -27,12 +27,15 @@
             <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="SETC20140527104115829"/>
             <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="2013_Kenai_Peninsula_CIR_Orthomosaic20140528095325620"/>
             <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="SCTC20140527104111409"/>
+            <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="SDMI_Inventory20140602090424217"/>
+            <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="SDMI_Inventory20140602090729828"/>
             <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="NTC20140527104105165"/>
             <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tl_2013_us_state20140519113655414"/>
             <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="EPSCoR20140527103808501"/>
+            <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="SDMI_Inventory20140602095421038"/>
         </layer_coordinate_transform_info>
     </mapcanvas>
-    <legend updateDrawingOrder="true" activeLayer="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642">
+    <legend updateDrawingOrder="true" activeLayer="UBCommunities20140520134314909">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="UBCommunityPoly" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="UBCommunityPoly20140522110032268" visible="0"/>
@@ -53,9 +56,9 @@
                 <legendlayerfile isInOverview="0" layerid="MBTSites20140520134302704" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="UBCommunities" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="UBCommunities" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="UBCommunities20140520134314909" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="UBCommunities20140520134314909" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Cities_pt" showFeatureCount="0">
@@ -68,24 +71,19 @@
                 <legendlayerfile isInOverview="0" layerid="alaska_250000_ln20140520143016977" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-            <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" visible="0"/>
-            </filegroup>
-        </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="AHAP 1978 Historical Aerial Orthoimagery" showFeatureCount="0">
             <filegroup open="false" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" visible="0"/>
             </filegroup>
         </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="AHAP 1980 Historical Aerial Orthoimagery" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524" visible="0"/>
+            </filegroup>
+        </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="USGS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
             <filegroup open="false" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" visible="0"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="AHAP 1980 Historical Aerial Orthoimagery/AHAP 1978 Historical Aerial Orthoimagery/USGS 1950 Historical Aerial Orthoimagery/USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-            <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="2013 Kenai Peninsula RGB Orthomosaic" showFeatureCount="0">
@@ -108,14 +106,14 @@
                 <legendlayerfile isInOverview="0" layerid="lat_long_2x220140520142957688" visible="0"/>
             </filegroup>
         </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="SDMI_Inventory" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="SDMI_Inventory20140602095421038" visible="0"/>
+            </filegroup>
+        </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Major_Roads_ln" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="Major_Roads_ln20140519095542460" visible="0"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EPSCoR" showFeatureCount="0">
-            <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="EPSCoR20140527103808501" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Natural Earth I with Shaded Relief, Water, and Drainages" showFeatureCount="0">
@@ -430,9 +428,6 @@
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
-                    <LayerItem layerId="EPSCoR20140527103808501" userText="" style="subgroup" text="EPSCoR" showFeatureCount="0">
-                        <RasterClassificationItem layerId="EPSCoR20140527103808501" userText="" color="#000000" text=""/>
-                    </LayerItem>
                     <LayerItem layerId="2013_Kenai_Peninsula_CIR_Orthomosaic20140528095325620" userText="" style="subgroup" text="2013 Kenai Peninsula CIR Orthomosaic" showFeatureCount="0">
                         <RasterClassificationItem layerId="2013_Kenai_Peninsula_CIR_Orthomosaic20140528095325620" userText="" color="#000000" text=""/>
                     </LayerItem>
@@ -442,20 +437,35 @@
                     <LayerItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" style="subgroup" text="2013 Kenai Peninsula RGB Orthomosaic" showFeatureCount="0">
                         <RasterClassificationItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" color="#000000" text=""/>
                     </LayerItem>
-                    <LayerItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" style="subgroup" text="AHAP 1980 Historical Aerial Orthoimagery/AHAP 1978 Historical Aerial Orthoimagery/USGS 1950 Historical Aerial Orthoimagery/USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" color="#000000" text=""/>
-                    </LayerItem>
                     <LayerItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" style="subgroup" text="AHAP 1978 Historical Aerial Orthoimagery" showFeatureCount="0">
                         <RasterClassificationItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" color="#000000" text=""/>
                     </LayerItem>
                     <LayerItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" style="subgroup" text="USGS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
                         <RasterClassificationItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" color="#000000" text=""/>
                     </LayerItem>
-                    <LayerItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" style="subgroup" text="USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" color="#000000" text=""/>
+                    <LayerItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524" userText="" style="subgroup" text="AHAP 1980 Historical Aerial Orthoimagery" showFeatureCount="0">
+                        <RasterClassificationItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524" userText="" color="#000000" text=""/>
+                    </LayerItem>
+                    <LayerItem layerId="SDMI_Inventory20140602095421038" userText="" style="hidden" text="SDMI_Inventory" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="SDMI_Inventory">
+                            <symbols>
+                                <symbol alpha="1" type="fill" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleFill" locked="0">
+                                        <prop k="border_width_unit" v="MM"/>
+                                        <prop k="color" v="3,6,183,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="style" v="solid"/>
+                                        <prop k="style_border" v="solid"/>
+                                        <prop k="width_border" v="0.26"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="321" x="229.5" transparency="0" y="2" height="422.7" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" itemRotation="0" lastValidViewScaleFactor="4.04448" uuid="{5bc2d1ce-8d1e-4746-9548-f36defa1eefb}" id="" background="true" blendMode="0" positionLock="true">
+                <ComposerItem width="108.2" x="229.5" transparency="0" y="2" height="359.3" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" itemRotation="0" lastValidViewScaleFactor="4.04448" uuid="{5bc2d1ce-8d1e-4746-9548-f36defa1eefb}" id="" background="true" blendMode="0" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="0" blue="127" green="0"/>
                 </ComposerItem>
@@ -735,9 +745,6 @@
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
-                    <LayerItem layerId="EPSCoR20140527103808501" userText="" style="subgroup" text="EPSCoR" showFeatureCount="0">
-                        <RasterClassificationItem layerId="EPSCoR20140527103808501" userText="" color="#000000" text=""/>
-                    </LayerItem>
                     <LayerItem layerId="2013_Kenai_Peninsula_CIR_Orthomosaic20140528095325620" userText="" style="subgroup" text="2013 Kenai Peninsula CIR Orthomosaic" showFeatureCount="0">
                         <RasterClassificationItem layerId="2013_Kenai_Peninsula_CIR_Orthomosaic20140528095325620" userText="" color="#000000" text=""/>
                     </LayerItem>
@@ -747,20 +754,35 @@
                     <LayerItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" style="subgroup" text="2013 Kenai Peninsula RGB Orthomosaic" showFeatureCount="0">
                         <RasterClassificationItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" color="#000000" text=""/>
                     </LayerItem>
-                    <LayerItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" style="subgroup" text="AHAP 1980 Historical Aerial Orthoimagery/AHAP 1978 Historical Aerial Orthoimagery/USGS 1950 Historical Aerial Orthoimagery/USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" color="#000000" text=""/>
-                    </LayerItem>
                     <LayerItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" style="subgroup" text="AHAP 1978 Historical Aerial Orthoimagery" showFeatureCount="0">
                         <RasterClassificationItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" color="#000000" text=""/>
                     </LayerItem>
                     <LayerItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" style="subgroup" text="USGS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
                         <RasterClassificationItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" color="#000000" text=""/>
                     </LayerItem>
-                    <LayerItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" style="subgroup" text="USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" color="#000000" text=""/>
+                    <LayerItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524" userText="" style="subgroup" text="AHAP 1980 Historical Aerial Orthoimagery" showFeatureCount="0">
+                        <RasterClassificationItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524" userText="" color="#000000" text=""/>
+                    </LayerItem>
+                    <LayerItem layerId="SDMI_Inventory20140602095421038" userText="" style="hidden" text="SDMI_Inventory" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="SDMI_Inventory">
+                            <symbols>
+                                <symbol alpha="1" type="fill" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleFill" locked="0">
+                                        <prop k="border_width_unit" v="MM"/>
+                                        <prop k="color" v="3,6,183,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="style" v="solid"/>
+                                        <prop k="style_border" v="solid"/>
+                                        <prop k="width_border" v="0.26"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="321" x="252" transparency="0" y="0" height="395" positionMode="0" frame="true" outlineWidth="0.3" zValue="3" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{0876ec0d-cab6-4668-bef5-5006afdae04e}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="108.2" x="252" transparency="0" y="0" height="331.6" positionMode="0" frame="true" outlineWidth="0.3" zValue="3" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{0876ec0d-cab6-4668-bef5-5006afdae04e}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1014,9 +1036,6 @@
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
-                    <LayerItem layerId="EPSCoR20140527103808501" userText="" style="subgroup" text="EPSCoR" showFeatureCount="0">
-                        <RasterClassificationItem layerId="EPSCoR20140527103808501" userText="" color="#000000" text=""/>
-                    </LayerItem>
                     <LayerItem layerId="2013_Kenai_Peninsula_CIR_Orthomosaic20140528095325620" userText="" style="subgroup" text="2013 Kenai Peninsula CIR Orthomosaic" showFeatureCount="0">
                         <RasterClassificationItem layerId="2013_Kenai_Peninsula_CIR_Orthomosaic20140528095325620" userText="" color="#000000" text=""/>
                     </LayerItem>
@@ -1026,20 +1045,35 @@
                     <LayerItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" style="subgroup" text="2013 Kenai Peninsula RGB Orthomosaic" showFeatureCount="0">
                         <RasterClassificationItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" color="#000000" text=""/>
                     </LayerItem>
-                    <LayerItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" style="subgroup" text="AHAP 1980 Historical Aerial Orthoimagery/AHAP 1978 Historical Aerial Orthoimagery/USGS 1950 Historical Aerial Orthoimagery/USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" color="#000000" text=""/>
-                    </LayerItem>
                     <LayerItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" style="subgroup" text="AHAP 1978 Historical Aerial Orthoimagery" showFeatureCount="0">
                         <RasterClassificationItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" color="#000000" text=""/>
                     </LayerItem>
                     <LayerItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" style="subgroup" text="USGS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
                         <RasterClassificationItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" color="#000000" text=""/>
                     </LayerItem>
-                    <LayerItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" style="subgroup" text="USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" color="#000000" text=""/>
+                    <LayerItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524" userText="" style="subgroup" text="AHAP 1980 Historical Aerial Orthoimagery" showFeatureCount="0">
+                        <RasterClassificationItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524" userText="" color="#000000" text=""/>
+                    </LayerItem>
+                    <LayerItem layerId="SDMI_Inventory20140602095421038" userText="" style="hidden" text="SDMI_Inventory" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="SDMI_Inventory">
+                            <symbols>
+                                <symbol alpha="1" type="fill" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleFill" locked="0">
+                                        <prop k="border_width_unit" v="MM"/>
+                                        <prop k="color" v="3,6,183,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="style" v="solid"/>
+                                        <prop k="style_border" v="solid"/>
+                                        <prop k="width_border" v="0.26"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="321" x="252.4" transparency="0" y="-7.10543e-15" height="325.6" positionMode="0" frame="true" outlineWidth="0.3" zValue="6" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{025d706e-dc06-461c-904b-08a9e2ad25d0}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="81.3" x="252.4" transparency="0" y="-7.10543e-15" height="262.2" positionMode="0" frame="true" outlineWidth="0.3" zValue="6" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{025d706e-dc06-461c-904b-08a9e2ad25d0}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1053,7 +1087,7 @@
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerArrow>
-            <ComposerPicture pictureRotation="0" pictureWidth="12.0443" file="../../../Desktop/Logos/UB logo 2.jpg" pictureHeight="17.5646" mapId="-1">
+            <ComposerPicture pictureRotation="0" pictureWidth="33.2803" file="../../../Desktop/Logos/UB logo 2.jpg" pictureHeight="17.5646" mapId="-1">
                 <ComposerItem width="33.7042" x="0" transparency="0" y="25.075" height="17.5646" positionMode="0" frame="false" outlineWidth="0.3" zValue="4" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{0abf14a6-32f8-4d4b-859e-dcfd584c2001}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -1315,9 +1349,6 @@
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
-                    <LayerItem layerId="EPSCoR20140527103808501" userText="" style="subgroup" text="EPSCoR" showFeatureCount="0">
-                        <RasterClassificationItem layerId="EPSCoR20140527103808501" userText="" color="#000000" text=""/>
-                    </LayerItem>
                     <LayerItem layerId="2013_Kenai_Peninsula_CIR_Orthomosaic20140528095325620" userText="" style="subgroup" text="2013 Kenai Peninsula CIR Orthomosaic" showFeatureCount="0">
                         <RasterClassificationItem layerId="2013_Kenai_Peninsula_CIR_Orthomosaic20140528095325620" userText="" color="#000000" text=""/>
                     </LayerItem>
@@ -1327,20 +1358,35 @@
                     <LayerItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" style="subgroup" text="2013 Kenai Peninsula RGB Orthomosaic" showFeatureCount="0">
                         <RasterClassificationItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" color="#000000" text=""/>
                     </LayerItem>
-                    <LayerItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" style="subgroup" text="AHAP 1980 Historical Aerial Orthoimagery/AHAP 1978 Historical Aerial Orthoimagery/USGS 1950 Historical Aerial Orthoimagery/USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" color="#000000" text=""/>
-                    </LayerItem>
                     <LayerItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" style="subgroup" text="AHAP 1978 Historical Aerial Orthoimagery" showFeatureCount="0">
                         <RasterClassificationItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" color="#000000" text=""/>
                     </LayerItem>
                     <LayerItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" style="subgroup" text="USGS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
                         <RasterClassificationItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" color="#000000" text=""/>
                     </LayerItem>
-                    <LayerItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" style="subgroup" text="USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" color="#000000" text=""/>
+                    <LayerItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524" userText="" style="subgroup" text="AHAP 1980 Historical Aerial Orthoimagery" showFeatureCount="0">
+                        <RasterClassificationItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524" userText="" color="#000000" text=""/>
+                    </LayerItem>
+                    <LayerItem layerId="SDMI_Inventory20140602095421038" userText="" style="hidden" text="SDMI_Inventory" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="SDMI_Inventory">
+                            <symbols>
+                                <symbol alpha="1" type="fill" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleFill" locked="0">
+                                        <prop k="border_width_unit" v="MM"/>
+                                        <prop k="color" v="3,6,183,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="style" v="solid"/>
+                                        <prop k="style_border" v="solid"/>
+                                        <prop k="width_border" v="0.26"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="321" x="252.4" transparency="0" y="7.10543e-15" height="333.8" positionMode="0" frame="true" outlineWidth="0.3" zValue="4" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{f753db89-10a2-4a91-bcb7-6cbabc82e92e}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="81.3" x="252.4" transparency="0" y="7.10543e-15" height="270.4" positionMode="0" frame="true" outlineWidth="0.3" zValue="4" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{f753db89-10a2-4a91-bcb7-6cbabc82e92e}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1596,9 +1642,6 @@
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
-                    <LayerItem layerId="EPSCoR20140527103808501" userText="" style="subgroup" text="EPSCoR" showFeatureCount="0">
-                        <RasterClassificationItem layerId="EPSCoR20140527103808501" userText="" color="#000000" text=""/>
-                    </LayerItem>
                     <LayerItem layerId="2013_Kenai_Peninsula_CIR_Orthomosaic20140528095325620" userText="" style="subgroup" text="2013 Kenai Peninsula CIR Orthomosaic" showFeatureCount="0">
                         <RasterClassificationItem layerId="2013_Kenai_Peninsula_CIR_Orthomosaic20140528095325620" userText="" color="#000000" text=""/>
                     </LayerItem>
@@ -1608,20 +1651,35 @@
                     <LayerItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" style="subgroup" text="2013 Kenai Peninsula RGB Orthomosaic" showFeatureCount="0">
                         <RasterClassificationItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" color="#000000" text=""/>
                     </LayerItem>
-                    <LayerItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" style="subgroup" text="AHAP 1980 Historical Aerial Orthoimagery/AHAP 1978 Historical Aerial Orthoimagery/USGS 1950 Historical Aerial Orthoimagery/USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" color="#000000" text=""/>
-                    </LayerItem>
                     <LayerItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" style="subgroup" text="AHAP 1978 Historical Aerial Orthoimagery" showFeatureCount="0">
                         <RasterClassificationItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" color="#000000" text=""/>
                     </LayerItem>
                     <LayerItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" style="subgroup" text="USGS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
                         <RasterClassificationItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" color="#000000" text=""/>
                     </LayerItem>
-                    <LayerItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" style="subgroup" text="USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" color="#000000" text=""/>
+                    <LayerItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524" userText="" style="subgroup" text="AHAP 1980 Historical Aerial Orthoimagery" showFeatureCount="0">
+                        <RasterClassificationItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524" userText="" color="#000000" text=""/>
+                    </LayerItem>
+                    <LayerItem layerId="SDMI_Inventory20140602095421038" userText="" style="hidden" text="SDMI_Inventory" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="SDMI_Inventory">
+                            <symbols>
+                                <symbol alpha="1" type="fill" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleFill" locked="0">
+                                        <prop k="border_width_unit" v="MM"/>
+                                        <prop k="color" v="3,6,183,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="style" v="solid"/>
+                                        <prop k="style_border" v="solid"/>
+                                        <prop k="width_border" v="0.26"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="321" x="252.4" transparency="0" y="4.44089e-15" height="325.6" positionMode="0" frame="true" outlineWidth="0.3" zValue="7" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{5e70a294-5acf-49aa-85bc-5ef1bf67ddd8}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="81.3" x="252.4" transparency="0" y="4.44089e-15" height="262.2" positionMode="0" frame="true" outlineWidth="0.3" zValue="7" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{5e70a294-5acf-49aa-85bc-5ef1bf67ddd8}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1641,7 +1699,7 @@
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerArrow>
-            <ComposerPicture pictureRotation="0" pictureWidth="9.48014" file="../../../Desktop/Logos/UB logo 2.jpg" pictureHeight="13.8252" mapId="-1">
+            <ComposerPicture pictureRotation="0" pictureWidth="26.1951" file="../../../Desktop/Logos/UB logo 2.jpg" pictureHeight="13.8252" mapId="-1">
                 <ComposerItem width="34.8524" x="0" transparency="0" y="25.4938" height="13.8252" positionMode="0" frame="false" outlineWidth="0.3" zValue="4" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{f8c74241-0f76-419e-9c78-ac86c52471fd}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -1910,9 +1968,6 @@
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
-                    <LayerItem layerId="EPSCoR20140527103808501" userText="" style="subgroup" text="EPSCoR" showFeatureCount="0">
-                        <RasterClassificationItem layerId="EPSCoR20140527103808501" userText="" color="#000000" text=""/>
-                    </LayerItem>
                     <LayerItem layerId="2013_Kenai_Peninsula_CIR_Orthomosaic20140528095325620" userText="" style="subgroup" text="2013 Kenai Peninsula CIR Orthomosaic" showFeatureCount="0">
                         <RasterClassificationItem layerId="2013_Kenai_Peninsula_CIR_Orthomosaic20140528095325620" userText="" color="#000000" text=""/>
                     </LayerItem>
@@ -1922,25 +1977,40 @@
                     <LayerItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" style="subgroup" text="2013 Kenai Peninsula RGB Orthomosaic" showFeatureCount="0">
                         <RasterClassificationItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" color="#000000" text=""/>
                     </LayerItem>
-                    <LayerItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" style="subgroup" text="AHAP 1980 Historical Aerial Orthoimagery/AHAP 1978 Historical Aerial Orthoimagery/USGS 1950 Historical Aerial Orthoimagery/USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" color="#000000" text=""/>
-                    </LayerItem>
                     <LayerItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" style="subgroup" text="AHAP 1978 Historical Aerial Orthoimagery" showFeatureCount="0">
                         <RasterClassificationItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" color="#000000" text=""/>
                     </LayerItem>
                     <LayerItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" style="subgroup" text="USGS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
                         <RasterClassificationItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" color="#000000" text=""/>
                     </LayerItem>
-                    <LayerItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" style="subgroup" text="USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" color="#000000" text=""/>
+                    <LayerItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524" userText="" style="subgroup" text="AHAP 1980 Historical Aerial Orthoimagery" showFeatureCount="0">
+                        <RasterClassificationItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524" userText="" color="#000000" text=""/>
+                    </LayerItem>
+                    <LayerItem layerId="SDMI_Inventory20140602095421038" userText="" style="hidden" text="SDMI_Inventory" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="SDMI_Inventory">
+                            <symbols>
+                                <symbol alpha="1" type="fill" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleFill" locked="0">
+                                        <prop k="border_width_unit" v="MM"/>
+                                        <prop k="color" v="3,6,183,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="style" v="solid"/>
+                                        <prop k="style_border" v="solid"/>
+                                        <prop k="width_border" v="0.26"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="321" x="252.4" transparency="0" y="0" height="325.6" positionMode="0" frame="true" outlineWidth="0.3" zValue="5" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{4d86ee23-8037-42d5-9021-bbf77da525f8}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="81.3" x="252.4" transparency="0" y="0" height="262.2" positionMode="0" frame="true" outlineWidth="0.3" zValue="5" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{4d86ee23-8037-42d5-9021-bbf77da525f8}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLegend>
-            <ComposerPicture pictureRotation="0" pictureWidth="8.9256" file="../../../Desktop/Logos/UB logo 2.jpg" pictureHeight="13.0165" mapId="-1">
+            <ComposerPicture pictureRotation="0" pictureWidth="24.6628" file="../../../Desktop/Logos/UB logo 2.jpg" pictureHeight="13.0165" mapId="-1">
                 <ComposerItem width="36.2003" x="0" transparency="0" y="26.5721" height="13.0165" positionMode="0" frame="false" outlineWidth="0.3" zValue="4" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{711a9997-2994-4ecb-b52d-dc6e3ad4516d}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -2036,7 +2106,7 @@
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerArrow>
-            <ComposerPicture pictureRotation="0" pictureWidth="9.14146" file="../../../Desktop/Logos/UB logo 2.jpg" pictureHeight="13.3313" mapId="-1">
+            <ComposerPicture pictureRotation="0" pictureWidth="25.2593" file="../../../Desktop/Logos/UB logo 2.jpg" pictureHeight="13.3313" mapId="-1">
                 <ComposerItem width="35.5563" x="0" transparency="0" y="24.1313" height="13.3313" positionMode="0" frame="false" outlineWidth="0.3" zValue="5" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{24231ea0-e48c-4e82-ac33-d1942dc02c62}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -2105,9 +2175,6 @@
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
-                    <LayerItem layerId="EPSCoR20140527103808501" userText="" style="subgroup" text="EPSCoR" showFeatureCount="0">
-                        <RasterClassificationItem layerId="EPSCoR20140527103808501" userText="" color="#000000" text=""/>
-                    </LayerItem>
                     <LayerItem layerId="2013_Kenai_Peninsula_CIR_Orthomosaic20140528095325620" userText="" style="subgroup" text="2013 Kenai Peninsula CIR Orthomosaic" showFeatureCount="0">
                         <RasterClassificationItem layerId="2013_Kenai_Peninsula_CIR_Orthomosaic20140528095325620" userText="" color="#000000" text=""/>
                     </LayerItem>
@@ -2117,20 +2184,35 @@
                     <LayerItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" style="subgroup" text="2013 Kenai Peninsula RGB Orthomosaic" showFeatureCount="0">
                         <RasterClassificationItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" color="#000000" text=""/>
                     </LayerItem>
-                    <LayerItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" style="subgroup" text="AHAP 1980 Historical Aerial Orthoimagery/AHAP 1978 Historical Aerial Orthoimagery/USGS 1950 Historical Aerial Orthoimagery/USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" color="#000000" text=""/>
-                    </LayerItem>
                     <LayerItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" style="subgroup" text="AHAP 1978 Historical Aerial Orthoimagery" showFeatureCount="0">
                         <RasterClassificationItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" color="#000000" text=""/>
                     </LayerItem>
                     <LayerItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" style="subgroup" text="USGS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
                         <RasterClassificationItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" color="#000000" text=""/>
                     </LayerItem>
-                    <LayerItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" style="subgroup" text="USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" color="#000000" text=""/>
+                    <LayerItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524" userText="" style="subgroup" text="AHAP 1980 Historical Aerial Orthoimagery" showFeatureCount="0">
+                        <RasterClassificationItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524" userText="" color="#000000" text=""/>
+                    </LayerItem>
+                    <LayerItem layerId="SDMI_Inventory20140602095421038" userText="" style="hidden" text="SDMI_Inventory" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="SDMI_Inventory">
+                            <symbols>
+                                <symbol alpha="1" type="fill" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleFill" locked="0">
+                                        <prop k="border_width_unit" v="MM"/>
+                                        <prop k="color" v="3,6,183,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="style" v="solid"/>
+                                        <prop k="style_border" v="solid"/>
+                                        <prop k="width_border" v="0.26"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="321" x="248.6" transparency="0" y="0" height="294.6" positionMode="0" frame="true" outlineWidth="0.3" zValue="2" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{455a4a1e-66a0-4384-a41e-ae138e59c991}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="81.3" x="248.6" transparency="0" y="0" height="231.2" positionMode="0" frame="true" outlineWidth="0.3" zValue="2" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{455a4a1e-66a0-4384-a41e-ae138e59c991}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -2255,9 +2337,6 @@
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
-                    <LayerItem layerId="EPSCoR20140527103808501" userText="" style="subgroup" text="EPSCoR" showFeatureCount="0">
-                        <RasterClassificationItem layerId="EPSCoR20140527103808501" userText="" color="#000000" text=""/>
-                    </LayerItem>
                     <LayerItem layerId="2013_Kenai_Peninsula_CIR_Orthomosaic20140528095325620" userText="" style="subgroup" text="2013 Kenai Peninsula CIR Orthomosaic" showFeatureCount="0">
                         <RasterClassificationItem layerId="2013_Kenai_Peninsula_CIR_Orthomosaic20140528095325620" userText="" color="#000000" text=""/>
                     </LayerItem>
@@ -2267,25 +2346,40 @@
                     <LayerItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" style="subgroup" text="2013 Kenai Peninsula RGB Orthomosaic" showFeatureCount="0">
                         <RasterClassificationItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" color="#000000" text=""/>
                     </LayerItem>
-                    <LayerItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" style="subgroup" text="AHAP 1980 Historical Aerial Orthoimagery/AHAP 1978 Historical Aerial Orthoimagery/USGS 1950 Historical Aerial Orthoimagery/USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" color="#000000" text=""/>
-                    </LayerItem>
                     <LayerItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" style="subgroup" text="AHAP 1978 Historical Aerial Orthoimagery" showFeatureCount="0">
                         <RasterClassificationItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" color="#000000" text=""/>
                     </LayerItem>
                     <LayerItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" style="subgroup" text="USGS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
                         <RasterClassificationItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" color="#000000" text=""/>
                     </LayerItem>
-                    <LayerItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" style="subgroup" text="USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" color="#000000" text=""/>
+                    <LayerItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524" userText="" style="subgroup" text="AHAP 1980 Historical Aerial Orthoimagery" showFeatureCount="0">
+                        <RasterClassificationItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524" userText="" color="#000000" text=""/>
+                    </LayerItem>
+                    <LayerItem layerId="SDMI_Inventory20140602095421038" userText="" style="hidden" text="SDMI_Inventory" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="SDMI_Inventory">
+                            <symbols>
+                                <symbol alpha="1" type="fill" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleFill" locked="0">
+                                        <prop k="border_width_unit" v="MM"/>
+                                        <prop k="color" v="3,6,183,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="style" v="solid"/>
+                                        <prop k="style_border" v="solid"/>
+                                        <prop k="width_border" v="0.26"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="321" x="256.5" transparency="0" y="0" height="288.6" positionMode="0" frame="false" outlineWidth="0.3" zValue="5" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{4b6bef09-49a1-490c-b3ba-cf58dd2f4383}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="81.3" x="256.5" transparency="0" y="0" height="225.2" positionMode="0" frame="false" outlineWidth="0.3" zValue="5" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{4b6bef09-49a1-490c-b3ba-cf58dd2f4383}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLegend>
-            <ComposerPicture pictureRotation="0" pictureWidth="8.96002" file="../../../Desktop/Logos/UB logo 2.jpg" pictureHeight="13.0667" mapId="-1">
+            <ComposerPicture pictureRotation="0" pictureWidth="24.758" file="../../../Desktop/Logos/UB logo 2.jpg" pictureHeight="13.0667" mapId="-1">
                 <ComposerItem width="32.9104" x="0" transparency="0" y="26.9271" height="13.0667" positionMode="0" frame="false" outlineWidth="0.3" zValue="4" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{07035f5c-5eb7-4997-b12d-0866aa3379de}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -2366,31 +2460,49 @@
                     <prop k="width_border" v="0.26"/>
                 </layer>
             </symbol>
+            <ComposerPicture pictureRotation="0" pictureWidth="25.0067" file="../../../Desktop/Logos/UB 3.png" pictureHeight="11.7531" mapId="-1">
+                <ComposerItem width="25.7666" x="0" transparency="0" y="16.5667" height="11.7531" positionMode="0" frame="false" outlineWidth="0.3" zValue="9" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{e070f123-fc8d-420e-900e-fcc90d10559b}" id="" background="false" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
+            <ComposerLabel valign="128" labelText="Image Date: 30-Sept-2010" htmlState="0" halign="4" margin="1">
+                <LabelFont description="MS Shell Dlg 2,8,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="19.3729" x="0" transparency="0" y="197.344" height="10.0104" positionMode="0" frame="false" outlineWidth="0.3" zValue="8" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{fcbf0740-5ad6-4205-b4dd-ff8b26a04bb6}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="123" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerPicture pictureRotation="0" pictureWidth="21.8678" file="../../../Desktop/Logos/EPSCOR 2.png" pictureHeight="9.37189" mapId="-1">
+                <ComposerItem width="23.65" x="-3e-06" transparency="0" y="7.1948" height="9.37189" positionMode="0" frame="false" outlineWidth="0.3" zValue="6" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{86a2aa3a-099a-44dc-9e26-451604f15c59}" id="" background="false" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
+            <ComposerPicture pictureRotation="0" pictureWidth="23.65" file="../../../Desktop/Logos/GINA 2.png" pictureHeight="7.16256" mapId="-1">
+                <ComposerItem width="23.65" x="0" transparency="0" y="0" height="9.37189" positionMode="0" frame="false" outlineWidth="0.3" zValue="5" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{9543caa4-cbeb-4248-bdf1-489cac7bcdf5}" id="" background="false" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
             <ComposerArrow startMarkerFile="" arrowHeadWidth="4" endMarkerFile="" outlineWidth="1" markerMode="0">
                 <ArrowColor alpha="255" red="0" blue="0" green="0"/>
-                <StartPoint x="315.835" y="178.634"/>
-                <StopPoint x="292.413" y="178.634"/>
-                <ComposerItem width="28.422" x="289.913" transparency="0" y="176.134" height="5" positionMode="0" frame="false" outlineWidth="0" zValue="5" itemRotation="100" lastValidViewScaleFactor="3.77953" uuid="{701fc93e-34bd-49af-8d2d-a83a05c4fc3c}" id="" background="true" blendMode="0" positionLock="false">
+                <StartPoint x="316.971" y="181.24"/>
+                <StopPoint x="294.481" y="181.24"/>
+                <ComposerItem width="27.49" x="291.981" transparency="0" y="178.74" height="5" positionMode="0" frame="false" outlineWidth="0" zValue="4" itemRotation="100" lastValidViewScaleFactor="3.77953" uuid="{c1e5be6f-43a6-4040-ab43-bfdbd49268f8}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerArrow>
-            <ComposerScaleBar penColor="#ffffff" style="Single Box" numMapUnitsPerScaleBarUnit="1000" alignment="0" brushColor="#000000" numSegments="2" segmentMillimeters="42.3265" fontColor="#ffffff" font="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" numUnitsPerSegment="500" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" height="3" mapId="0" boxContentSpace="1" unitLabel="km">
-                <ComposerItem width="99.053" x="98.9735" transparency="0" y="194.89" height="12.2" positionMode="0" frame="false" outlineWidth="0.3" zValue="4" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{f4a018b3-b528-43e2-a1c9-fd9bd01bca03}" id="" background="true" blendMode="0" positionLock="false">
+            <ComposerScaleBar penColor="#ffffff" style="Single Box" numMapUnitsPerScaleBarUnit="1000" alignment="0" brushColor="#000000" numSegments="2" segmentMillimeters="39.294" fontColor="#ffffff" font="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" numUnitsPerSegment="500" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" height="3" mapId="0" boxContentSpace="1" unitLabel="km">
+                <ComposerItem width="92.9879" x="102.606" transparency="0" y="195.154" height="12.2" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{08ee67a2-4bf4-4caa-acbf-17d2c7e0ae36}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="0" blue="0" green="0"/>
                 </ComposerItem>
             </ComposerScaleBar>
-            <ComposerLabel valign="128" labelText="Map of Shishmaref" htmlState="0" halign="4" margin="1">
-                <LabelFont description="MS Shell Dlg 2,16,-1,5,75,0,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="57.7375" x="119.631" transparency="0" y="0" height="10.275" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{3215bb17-ad5b-41b4-8983-3f6d402d04f8}" id="" background="true" blendMode="0" positionLock="false">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
-            <ComposerPicture pictureRotation="0" pictureWidth="35.2917" file="../../../Desktop/Logos/All images combined.jpg" pictureHeight="34.6397" mapId="-1">
-                <ComposerItem width="35.2917" x="0" transparency="0" y="0" height="37.4083" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{db8d087b-750a-4ee8-8c0c-719640109eaf}" id="" background="true" blendMode="0" positionLock="false">
+            <ComposerPicture pictureRotation="0" pictureWidth="86.8854" file="../../../Desktop/Logos/Shish title.png" pictureHeight="8.85456" mapId="-1">
+                <ComposerItem width="86.8854" x="105.057" transparency="0" y="0" height="14.3896" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{636ddd15-c28c-4f32-8e49-e97b0f832569}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -2410,7 +2522,7 @@
                         </layer>
                     </symbol>
                 </overviewFrame>
-                <Extent ymin="1858496.52389950724318624" xmin="-542923.95807717007119209" ymax="1860948.89324894896708429" xmax="-539406.87035306845791638"/>
+                <Extent ymin="1858392.02212364878505468" xmin="-543287.26107872079592198" ymax="1861037.01339761889539659" xmax="-539498.75249740993604064"/>
                 <LayerSet/>
                 <Grid gridStyle="0" crossLength="3" gridFramePenThickness="0.5" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
                     <framePenColor alpha="255" red="0" blue="0" green="0"/>
@@ -2437,14 +2549,14 @@
                     </Annotation>
                 </Grid>
                 <AtlasMap fixedScale="0" atlasDriven="0" margin="0.10000000000000001"/>
-                <ComposerItem width="297" x="0" transparency="0" y="0" height="207.09" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{274237d3-b079-4b41-a53b-920699de703a}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="297" x="0" transparency="0" y="0" height="207.354" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{08aaed07-f121-4fdf-a347-7317c30f6e67}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerMap>
         </Composition>
     </Composer>
-    <Composer title="Upward Bound MBT map" visible="0">
+    <Composer title="Upward Bound MBT map" visible="1">
         <Composition snapGridTolerance="2" gridVisible="0" printResolution="300" paperWidth="297" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="210" alignmentSnapTolerance="2" smartGuides="1" printAsRaster="0" generateWorldFile="0">
             <symbol alpha="1" type="fill" name="">
                 <layer pass="0" class="SimpleFill" locked="0">
@@ -2458,8 +2570,26 @@
                     <prop k="width_border" v="0.26"/>
                 </layer>
             </symbol>
+            <ComposerPicture pictureRotation="0" pictureWidth="22.5917" file="../../../Desktop/Logos/UB 1.png" pictureHeight="10.6181" mapId="-1">
+                <ComposerItem width="22.5917" x="0" transparency="0" y="17.6146" height="10.6854" positionMode="0" frame="false" outlineWidth="0.3" zValue="7" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{5c0a4789-b4d3-4b98-a3a9-6674293b1457}" id="" background="false" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="100" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
+            <ComposerPicture pictureRotation="0" pictureWidth="22.5917" file="../../../Desktop/Logos/EPSCOR 2.png" pictureHeight="9.68216" mapId="-1">
+                <ComposerItem width="22.5917" x="0" transparency="0" y="7.80729" height="10.6854" positionMode="0" frame="false" outlineWidth="0.3" zValue="6" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{d96edbe2-575d-4a89-a946-339cbe732689}" id="" background="false" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="100" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
+            <ComposerPicture pictureRotation="0" pictureWidth="22.5917" file="../../../Desktop/Logos/GINA 2.png" pictureHeight="6.84206" mapId="-1">
+                <ComposerItem width="22.5917" x="0" transparency="0" y="0" height="9.09792" positionMode="0" frame="false" outlineWidth="0.3" zValue="5" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{8835a779-2b45-4abc-9e31-ff2a3854a015}" id="" background="false" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
             <ComposerScaleBar penColor="#ffffff" style="Single Box" numMapUnitsPerScaleBarUnit="1000" alignment="0" brushColor="#000000" numSegments="4" segmentMillimeters="21.3516" fontColor="#ffffff" font="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" numUnitsPerSegment="250000" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" height="3" mapId="0" boxContentSpace="1" unitLabel="km">
-                <ComposerItem width="103.856" x="96.5719" transparency="0" y="194.065" height="12.2" positionMode="0" frame="false" outlineWidth="0.3" zValue="5" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{db47f435-d088-47d0-ad65-bf007d44b5eb}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="103.856" x="96.5719" transparency="0" y="194.065" height="12.2" positionMode="0" frame="false" outlineWidth="0.3" zValue="4" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{db47f435-d088-47d0-ad65-bf007d44b5eb}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="0" blue="0" green="0"/>
                 </ComposerItem>
@@ -2468,7 +2598,7 @@
                 <ArrowColor alpha="255" red="255" blue="255" green="255"/>
                 <StartPoint x="304.822" y="185.74"/>
                 <StopPoint x="287.009" y="185.74"/>
-                <ComposerItem width="22.813" x="284.509" transparency="0" y="183.24" height="5" positionMode="0" frame="false" outlineWidth="0" zValue="4" itemRotation="68" lastValidViewScaleFactor="3.70948" uuid="{a9012b61-5afa-4025-b7e8-272e40fae842}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="22.813" x="284.509" transparency="0" y="183.24" height="5" positionMode="0" frame="false" outlineWidth="0" zValue="3" itemRotation="68" lastValidViewScaleFactor="3.70948" uuid="{a9012b61-5afa-4025-b7e8-272e40fae842}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -2586,42 +2716,12 @@
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
-                    <LayerItem layerId="EPSCoR20140527103808501" userText="" style="subgroup" text="EPSCoR" showFeatureCount="0">
-                        <RasterClassificationItem layerId="EPSCoR20140527103808501" userText="" color="#000000" text=""/>
-                    </LayerItem>
-                    <LayerItem layerId="2013_Kenai_Peninsula_CIR_Orthomosaic20140528095325620" userText="" style="subgroup" text="2013 Kenai Peninsula CIR Orthomosaic" showFeatureCount="0">
-                        <RasterClassificationItem layerId="2013_Kenai_Peninsula_CIR_Orthomosaic20140528095325620" userText="" color="#000000" text=""/>
-                    </LayerItem>
-                    <LayerItem layerId="2013_Kenai_Peninsula_CIR_Orthomosaic20140528095352566" userText="" style="subgroup" text="2013 Kenai Peninsula CIR Orthomosaic" showFeatureCount="0">
-                        <RasterClassificationItem layerId="2013_Kenai_Peninsula_CIR_Orthomosaic20140528095352566" userText="" color="#000000" text=""/>
-                    </LayerItem>
-                    <LayerItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" style="subgroup" text="2013 Kenai Peninsula RGB Orthomosaic" showFeatureCount="0">
-                        <RasterClassificationItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" color="#000000" text=""/>
-                    </LayerItem>
-                    <LayerItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" style="subgroup" text="AHAP 1980 Historical Aerial Orthoimagery/AHAP 1978 Historical Aerial Orthoimagery/USGS 1950 Historical Aerial Orthoimagery/USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" color="#000000" text=""/>
-                    </LayerItem>
-                    <LayerItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" style="subgroup" text="AHAP 1978 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" color="#000000" text=""/>
-                    </LayerItem>
-                    <LayerItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" style="subgroup" text="USGS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" color="#000000" text=""/>
-                    </LayerItem>
-                    <LayerItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" style="subgroup" text="USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" color="#000000" text=""/>
-                    </LayerItem>
                 </Model>
-                <ComposerItem width="321" x="252.25" transparency="0" y="0.15" height="307.6" positionMode="0" frame="true" outlineWidth="0.3" zValue="3" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{a916ecfe-8459-4b6c-90e6-256509bba576}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="44.6" x="252.25" transparency="0" y="0.15" height="30" positionMode="0" frame="true" outlineWidth="0.3" zValue="2" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{a916ecfe-8459-4b6c-90e6-256509bba576}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLegend>
-            <ComposerPicture pictureRotation="0" pictureWidth="37.8178" file="../../../Desktop/Logos/All images combined.jpg" pictureHeight="37.1191" mapId="-1">
-                <ComposerItem width="37.8178" x="0" transparency="0" y="0" height="39.1657" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{b06433b4-3fd3-4c4e-bb80-a2a867f580b4}" id="" background="true" blendMode="0" positionLock="false">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerPicture>
             <ComposerMap mapRotation="0" keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Cache" drawCanvasItems="true">
                 <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewCentered="false" overviewInverted="false">
                     <symbol alpha="0.3" type="fill" name="">
@@ -2664,7 +2764,7 @@
                     </Annotation>
                 </Grid>
                 <AtlasMap fixedScale="0" atlasDriven="0" margin="0.10000000000000001"/>
-                <ComposerItem width="297" x="0" transparency="0" y="0" height="206.265" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{cde6d388-9612-4eee-81cf-87fe0c2f797f}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="297" x="0" transparency="0" y="0" height="206.265" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="2.03119" uuid="{cde6d388-9612-4eee-81cf-87fe0c2f797f}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -2757,7 +2857,7 @@
                     </Annotation>
                 </Grid>
                 <AtlasMap fixedScale="0" atlasDriven="0" margin="0.10000000000000001"/>
-                <ComposerItem width="297" x="0" transparency="0" y="0" height="207.619" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{04504d85-4163-4540-b4a4-3ab620fd32bc}" id="" background="true" blendMode="0" positionLock="true">
+                <ComposerItem width="297" x="0" transparency="0" y="0" height="207.619" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="2.03119" uuid="{04504d85-4163-4540-b4a4-3ab620fd32bc}" id="" background="true" blendMode="0" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -2820,20 +2920,35 @@
                     <LayerItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" style="subgroup" text="2013 Kenai Peninsula RGB Orthomosaic" showFeatureCount="0">
                         <RasterClassificationItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" color="#000000" text=""/>
                     </LayerItem>
-                    <LayerItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" style="subgroup" text="AHAP 1980 Historical Aerial Orthoimagery/AHAP 1978 Historical Aerial Orthoimagery/USGS 1950 Historical Aerial Orthoimagery/USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" color="#000000" text=""/>
-                    </LayerItem>
                     <LayerItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" style="subgroup" text="AHAP 1978 Historical Aerial Orthoimagery" showFeatureCount="0">
                         <RasterClassificationItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" color="#000000" text=""/>
                     </LayerItem>
                     <LayerItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" style="subgroup" text="USGS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
                         <RasterClassificationItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" color="#000000" text=""/>
                     </LayerItem>
-                    <LayerItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" style="subgroup" text="USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" color="#000000" text=""/>
+                    <LayerItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524" userText="" style="subgroup" text="AHAP 1980 Historical Aerial Orthoimagery" showFeatureCount="0">
+                        <RasterClassificationItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524" userText="" color="#000000" text=""/>
+                    </LayerItem>
+                    <LayerItem layerId="SDMI_Inventory20140602095421038" userText="" style="hidden" text="SDMI_Inventory" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="SDMI_Inventory">
+                            <symbols>
+                                <symbol alpha="1" type="fill" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleFill" locked="0">
+                                        <prop k="border_width_unit" v="MM"/>
+                                        <prop k="color" v="3,6,183,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="style" v="solid"/>
+                                        <prop k="style_border" v="solid"/>
+                                        <prop k="width_border" v="0.26"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="321" x="265.55" transparency="0" y="0.25" height="253.9" positionMode="0" frame="true" outlineWidth="0.5" zValue="6" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{f7ea7a48-10db-44cf-8842-b62f5026ce3b}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="81.3" x="265.55" transparency="0" y="0.25" height="225.2" positionMode="0" frame="true" outlineWidth="0.5" zValue="6" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{f7ea7a48-10db-44cf-8842-b62f5026ce3b}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -3052,20 +3167,35 @@
                     <LayerItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" style="subgroup" text="2013 Kenai Peninsula RGB Orthomosaic" showFeatureCount="0">
                         <RasterClassificationItem layerId="2013_Kenai_Peninsula_RGB_Orthomosaic20140528095425743" userText="" color="#000000" text=""/>
                     </LayerItem>
-                    <LayerItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" style="subgroup" text="AHAP 1980 Historical Aerial Orthoimagery/AHAP 1978 Historical Aerial Orthoimagery/USGS 1950 Historical Aerial Orthoimagery/USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642" userText="" color="#000000" text=""/>
-                    </LayerItem>
                     <LayerItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" style="subgroup" text="AHAP 1978 Historical Aerial Orthoimagery" showFeatureCount="0">
                         <RasterClassificationItem layerId="AHAP_1978_Historical_Aerial_Orthoimagery20140528112328680" userText="" color="#000000" text=""/>
                     </LayerItem>
                     <LayerItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" style="subgroup" text="USGS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
                         <RasterClassificationItem layerId="USGS_1950_Historical_Aerial_Orthoimagery20140528112335900" userText="" color="#000000" text=""/>
                     </LayerItem>
-                    <LayerItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" style="subgroup" text="USFWS 1950 Historical Aerial Orthoimagery" showFeatureCount="0">
-                        <RasterClassificationItem layerId="USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211" userText="" color="#000000" text=""/>
+                    <LayerItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524" userText="" style="subgroup" text="AHAP 1980 Historical Aerial Orthoimagery" showFeatureCount="0">
+                        <RasterClassificationItem layerId="AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524" userText="" color="#000000" text=""/>
+                    </LayerItem>
+                    <LayerItem layerId="SDMI_Inventory20140602095421038" userText="" style="hidden" text="SDMI_Inventory" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="SDMI_Inventory">
+                            <symbols>
+                                <symbol alpha="1" type="fill" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleFill" locked="0">
+                                        <prop k="border_width_unit" v="MM"/>
+                                        <prop k="color" v="3,6,183,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="style" v="solid"/>
+                                        <prop k="style_border" v="solid"/>
+                                        <prop k="width_border" v="0.26"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="321" x="252.15" transparency="0" y="0.25" height="272.9" positionMode="0" frame="true" outlineWidth="0.5" zValue="5" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{bbeacb03-a1a0-4b9b-9b2a-951185abf03b}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="81.3" x="252.15" transparency="0" y="0.25" height="244.2" positionMode="0" frame="true" outlineWidth="0.5" zValue="5" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{bbeacb03-a1a0-4b9b-9b2a-951185abf03b}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -3225,7 +3355,7 @@
                     </Annotation>
                 </Grid>
                 <AtlasMap fixedScale="0" atlasDriven="0" margin="0.10000000000000001"/>
-                <ComposerItem width="297" x="0" transparency="0" y="0" height="207.09" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{091d77be-c411-4700-bbf5-a033be7f8fed}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="297" x="0" transparency="0" y="0" height="207.09" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="2.03119" uuid="{091d77be-c411-4700-bbf5-a033be7f8fed}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -3317,7 +3447,7 @@
                     </Annotation>
                 </Grid>
                 <AtlasMap fixedScale="0" atlasDriven="0" margin="0.10000000000000001"/>
-                <ComposerItem width="297" x="0" transparency="0" y="0" height="206.825" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{b9adb891-0bf5-4804-9f3e-9e2d3f3c206d}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="297" x="0" transparency="0" y="0" height="206.825" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="2.03119" uuid="{b9adb891-0bf5-4804-9f3e-9e2d3f3c206d}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -3409,7 +3539,7 @@
                     </Annotation>
                 </Grid>
                 <AtlasMap fixedScale="0" atlasDriven="0" margin="0.10000000000000001"/>
-                <ComposerItem width="297" x="0" transparency="0" y="0" height="207.883" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{ee813122-7f8c-4bda-94fe-bafcd2dd3843}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="297" x="0" transparency="0" y="0" height="207.883" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="2.03119" uuid="{ee813122-7f8c-4bda-94fe-bafcd2dd3843}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -3432,29 +3562,29 @@
             </symbol>
             <ComposerArrow startMarkerFile="" arrowHeadWidth="4" endMarkerFile="" outlineWidth="1" markerMode="0">
                 <ArrowColor alpha="255" red="0" blue="0" green="0"/>
-                <StartPoint x="310.621" y="180.975"/>
-                <StopPoint x="290.777" y="180.975"/>
-                <ComposerItem width="24.844" x="288.277" transparency="0" y="178.475" height="5" positionMode="0" frame="false" outlineWidth="0" zValue="5" itemRotation="88" lastValidViewScaleFactor="3.77953" uuid="{40f7ca6d-d3ac-473e-aa26-f3f8a2140c8c}" id="" background="true" blendMode="0" positionLock="false">
+                <StartPoint x="315.912" y="173.567"/>
+                <StopPoint x="288.66" y="173.567"/>
+                <ComposerItem width="32.252" x="286.16" transparency="0" y="171.067" height="5" positionMode="0" frame="false" outlineWidth="0" zValue="5" itemRotation="88" lastValidViewScaleFactor="3.77953" uuid="{37892017-8648-4fff-ac9c-764595891329}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="0" red="255" blue="255" green="255"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerArrow>
-            <ComposerScaleBar penColor="#ffffff" style="Single Box" numMapUnitsPerScaleBarUnit="1000" alignment="0" brushColor="#000000" numSegments="2" segmentMillimeters="47.6031" fontColor="#ffffff" font="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" numUnitsPerSegment="200" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" height="3" mapId="0" boxContentSpace="1" unitLabel="km">
-                <ComposerItem width="111.606" x="92.6969" transparency="0" y="194.36" height="12.2" positionMode="0" frame="false" outlineWidth="0.3" zValue="4" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{33aebc57-e99e-4a2b-beca-879c663c9dd6}" id="" background="true" blendMode="0" positionLock="false">
+            <ComposerScaleBar penColor="#ffffff" style="Single Box" numMapUnitsPerScaleBarUnit="1" alignment="0" brushColor="#000000" numSegments="2" segmentMillimeters="38.9894" fontColor="#ffffff" font="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" numUnitsPerSegment="100" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" height="3" mapId="0" boxContentSpace="1" unitLabel="m">
+                <ComposerItem width="92.5788" x="102.211" transparency="0" y="194.096" height="12.2" positionMode="0" frame="false" outlineWidth="0.3" zValue="4" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{d1638ca4-0a4f-4363-abea-d59978a17f74}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="0" blue="0" green="0"/>
                 </ComposerItem>
             </ComposerScaleBar>
-            <ComposerLabel valign="128" labelText="Nikiski North Star Middle/High School" htmlState="0" halign="4" margin="1">
+            <ComposerLabel valign="128" labelText="Nikiski Middle/High School" htmlState="0" halign="4" margin="1">
                 <LabelFont description="MS Shell Dlg 2,14,-1,5,75,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="51.3875" x="122.806" transparency="0" y="0" height="15.1833" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{05277cbc-bfd5-4123-bbc6-0cc8dda0e3c7}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="54.0333" x="121.483" transparency="0" y="0" height="15.4479" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{8c2bdfe5-8208-42ce-9bb5-2f46ce7dc13e}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
-            <ComposerPicture pictureRotation="0" pictureWidth="35.2917" file="../../../Desktop/Logos/All images combined.jpg" pictureHeight="34.6397" mapId="-1">
-                <ComposerItem width="35.2917" x="0" transparency="0" y="0" height="36.8792" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{d03aba89-e50d-4983-88dc-bc71642aae76}" id="" background="true" blendMode="0" positionLock="false">
+            <ComposerPicture pictureRotation="0" pictureWidth="33.9688" file="../../../Desktop/Logos/All images combined.jpg" pictureHeight="33.3412" mapId="-1">
+                <ComposerItem width="33.9688" x="0" transparency="0" y="0" height="39.2604" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{db776c1d-a287-4b13-8330-1565c85016a7}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -3474,7 +3604,7 @@
                         </layer>
                     </symbol>
                 </overviewFrame>
-                <Extent ymin="1188573.2593127703294158" xmin="146814.01327773011871614" ymax="1189437.82642898336052895" xmax="148057.12149575536022894"/>
+                <Extent ymin="1197172.79223931534215808" xmin="146576.39208379466435872" ymax="1197699.90677308128215373" xmax="147335.26776014571078122"/>
                 <LayerSet/>
                 <Grid gridStyle="0" crossLength="3" gridFramePenThickness="0.5" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
                     <framePenColor alpha="255" red="0" blue="0" green="0"/>
@@ -3501,7 +3631,7 @@
                     </Annotation>
                 </Grid>
                 <AtlasMap fixedScale="0" atlasDriven="0" margin="0.10000000000000001"/>
-                <ComposerItem width="297" x="0" transparency="0" y="0" height="206.56" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{11f8dc29-5271-48b2-8266-9f58874cd93f}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="297" x="0" transparency="0" y="0" height="206.296" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="2.03119" uuid="{a6024b47-972f-4062-937f-22b55a36cc76}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -3522,49 +3652,31 @@
                     <prop k="width_border" v="0.26"/>
                 </layer>
             </symbol>
-            <ComposerArrow startMarkerFile="" arrowHeadWidth="4" endMarkerFile="" outlineWidth="1" markerMode="0">
-                <ArrowColor alpha="255" red="0" blue="0" green="0"/>
-                <StartPoint x="317.192" y="181.553"/>
-                <StopPoint x="295.7" y="181.553"/>
-                <ComposerItem width="26.4921" x="293.2" transparency="0" y="179.053" height="5" positionMode="0" frame="false" outlineWidth="0" zValue="12" itemRotation="96" lastValidViewScaleFactor="3.77953" uuid="{d2ef195f-6d9f-4379-a501-4ce4054f09a1}" id="" background="true" blendMode="0" positionLock="false">
-                    <FrameColor alpha="0" red="255" blue="255" green="255"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerArrow>
-            <ComposerLabel valign="128" labelText="Bethel 4-H Youth and Teen Center" htmlState="0" halign="4" margin="1">
-                <LabelFont description="MS Shell Dlg 2,14,-1,5,75,0,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="46.0958" x="125.452" transparency="0" y="1.24345e-14" height="15.0375" positionMode="0" frame="false" outlineWidth="0.3" zValue="11" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{6285ef6e-863f-421c-aa25-447fa7c04e26}" id="" background="true" blendMode="0" positionLock="false">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
-            <ComposerScaleBar penColor="#ffffff" style="Single Box" numMapUnitsPerScaleBarUnit="1000" alignment="0" brushColor="#000000" numSegments="2" segmentMillimeters="49.6724" fontColor="#ffffff" font="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" numUnitsPerSegment="200" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" height="3" mapId="0" boxContentSpace="1" unitLabel="km">
-                <ComposerItem width="115.745" x="90.6276" transparency="0" y="195.419" height="12.2" positionMode="0" frame="false" outlineWidth="0.3" zValue="10" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{0b5bb9e3-2928-47a6-84fa-d42974f6d96f}" id="" background="true" blendMode="0" positionLock="false">
+            <ComposerScaleBar penColor="#ffffff" style="Single Box" numMapUnitsPerScaleBarUnit="1000" alignment="0" brushColor="#000000" numSegments="2" segmentMillimeters="45.5376" fontColor="#ffffff" font="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" numUnitsPerSegment="500" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" height="3" mapId="0" boxContentSpace="1" unitLabel="km">
+                <ComposerItem width="105.475" x="90.7752" transparency="0" y="194.565" height="12.2" positionMode="0" frame="false" outlineWidth="0.3" zValue="5" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{62457fca-2b2f-4a98-b87c-3e259bbafe7e}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="0" blue="0" green="0"/>
                 </ComposerItem>
             </ComposerScaleBar>
-            <ComposerShape shapeType="0" cornerRadius="0">
-                <symbol alpha="1" type="fill" name="">
-                    <layer pass="0" class="SimpleFill" locked="0">
-                        <prop k="border_width_unit" v="MM"/>
-                        <prop k="color" v="255,255,255,255"/>
-                        <prop k="color_border" v="0,0,0,255"/>
-                        <prop k="offset" v="0,0"/>
-                        <prop k="offset_unit" v="MM"/>
-                        <prop k="style" v="no"/>
-                        <prop k="style_border" v="solid"/>
-                        <prop k="width_border" v="0.5"/>
-                    </layer>
-                </symbol>
-                <ComposerItem width="25.1354" x="123.115" transparency="0" y="86.6115" height="44.45" positionMode="0" frame="false" outlineWidth="0.5" zValue="9" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{37f0e8af-4232-44f0-9566-52ef409c556e}" id="" background="true" blendMode="0" positionLock="false">
+            <ComposerArrow startMarkerFile="" arrowHeadWidth="4" endMarkerFile="" outlineWidth="1" markerMode="0">
+                <ArrowColor alpha="255" red="0" blue="0" green="0"/>
+                <StartPoint x="316.487" y="175.496"/>
+                <StopPoint x="290.876" y="175.496"/>
+                <ComposerItem width="30.611" x="288.376" transparency="0" y="172.996" height="5" positionMode="0" frame="false" outlineWidth="0" zValue="4" itemRotation="96" lastValidViewScaleFactor="3.70948" uuid="{e0e6e66c-d9ee-4a05-b2c3-d313eb75f564}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="0" red="255" blue="255" green="255"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerArrow>
+            <ComposerLabel valign="128" labelText="Bethel Airport" htmlState="0" halign="4" margin="1">
+                <LabelFont description="MS Shell Dlg 2,14,-1,5,75,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="38.9275" x="124.049" transparency="0" y="0" height="10.335" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{851631f7-71d3-4ec8-875e-3ceb1a823572}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
-            </ComposerShape>
-            <ComposerPicture pictureRotation="0" pictureWidth="35.0271" file="../../../Desktop/Logos/All images combined.jpg" pictureHeight="34.3799" mapId="-1">
-                <ComposerItem width="35.0271" x="0" transparency="0" y="0" height="37.1437" positionMode="0" frame="false" outlineWidth="0.3" zValue="8" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{c347a5b3-6a21-4520-a61b-08757b360b15}" id="" background="true" blendMode="0" positionLock="false">
+            </ComposerLabel>
+            <ComposerPicture pictureRotation="0" pictureWidth="36.2003" file="../../../Desktop/Logos/All images combined.jpg" pictureHeight="35.5315" mapId="-1">
+                <ComposerItem width="36.2003" x="0" transparency="0" y="0" height="36.7395" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{8f5b1393-7b4f-408b-b725-1520d35b34f4}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -3584,7 +3696,7 @@
                         </layer>
                     </symbol>
                 </overviewFrame>
-                <Extent ymin="1225564.7246987666003406" xmin="-421518.9548968774615787" ymax="1226397.60728103620931506" xmax="-420327.5108344599721022"/>
+                <Extent ymin="1223534.0474624540656805" xmin="-425938.92912058503134176" ymax="1225795.978589037200436" xmax="-422689.86112263955874369"/>
                 <LayerSet/>
                 <Grid gridStyle="0" crossLength="3" gridFramePenThickness="0.5" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
                     <framePenColor alpha="255" red="0" blue="0" green="0"/>
@@ -3611,14 +3723,114 @@
                     </Annotation>
                 </Grid>
                 <AtlasMap fixedScale="0" atlasDriven="0" margin="0.10000000000000001"/>
-                <ComposerItem width="297" x="0" transparency="0" y="-4.44089e-16" height="207.619" positionMode="0" frame="false" outlineWidth="0.3" zValue="7" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{e3671ea3-fdcb-4170-82ab-be9fc2ebfcb2}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="297" x="0" transparency="0" y="0" height="206.765" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="3.70948" uuid="{b19d0b22-9dff-4f43-ae9e-5bab712d43ce}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerMap>
         </Composition>
     </Composer>
-    <projectlayers layercount="20">
+    <Composer title="Seward AOI" visible="1">
+        <Composition snapGridTolerance="2" gridVisible="0" printResolution="300" paperWidth="297" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="210" alignmentSnapTolerance="2" smartGuides="1" printAsRaster="0" generateWorldFile="0">
+            <symbol alpha="1" type="fill" name="">
+                <layer pass="0" class="SimpleFill" locked="0">
+                    <prop k="border_width_unit" v="MM"/>
+                    <prop k="color" v="255,255,255,255"/>
+                    <prop k="color_border" v="0,0,0,255"/>
+                    <prop k="offset" v="0,0"/>
+                    <prop k="offset_unit" v="MM"/>
+                    <prop k="style" v="solid"/>
+                    <prop k="style_border" v="no"/>
+                    <prop k="width_border" v="0.26"/>
+                </layer>
+            </symbol>
+            <ComposerLabel valign="32" labelText="QGIS" htmlState="0" halign="1" margin="1">
+                <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="11.7" x="25.6646" transparency="0" y="108.744" height="7.1" positionMode="0" frame="false" outlineWidth="0.3" zValue="6" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{55497c6b-3c1a-4040-9ee6-24ba402f1b93}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerScaleBar penColor="#ffffff" style="Single Box" numMapUnitsPerScaleBarUnit="1" alignment="0" brushColor="#000000" numSegments="2" segmentMillimeters="48.6971" fontColor="#ffffff" font="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" numUnitsPerSegment="100" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" height="3" mapId="0" boxContentSpace="1" unitLabel="m">
+                <ComposerItem width="111.994" x="92.5029" transparency="0" y="194.89" height="12.2" positionMode="0" frame="false" outlineWidth="0.3" zValue="5" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{444302f9-690e-446a-bf9b-b91e3db3932b}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="0" blue="0" green="0"/>
+                </ComposerItem>
+            </ComposerScaleBar>
+            <ComposerArrow startMarkerFile="" arrowHeadWidth="4" endMarkerFile="" outlineWidth="1" markerMode="0">
+                <ArrowColor alpha="255" red="255" blue="255" green="255"/>
+                <StartPoint x="314.082" y="178.594"/>
+                <StopPoint x="292.307" y="178.594"/>
+                <ComposerItem width="26.775" x="289.807" transparency="0" y="176.094" height="5" positionMode="0" frame="false" outlineWidth="0" zValue="4" itemRotation="86.5" lastValidViewScaleFactor="3.77953" uuid="{30d5bd39-c7dd-4ecf-bea0-d2939db82a3e}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="0" red="255" blue="255" green="255"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerArrow>
+            <ComposerLabel valign="128" labelText="Alaska SeaLife Center - Seward, Alaska" htmlState="0" halign="4" margin="1">
+                <LabelFont description="MS Shell Dlg 2,14,-1,5,75,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="61.1771" x="117.911" transparency="0" y="0" height="14.2438" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{cda5a699-3e9d-4bce-9886-4041fc181cce}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerPicture pictureRotation="0" pictureWidth="36.0854" file="../../../Desktop/Logos/All images combined.jpg" pictureHeight="35.4187" mapId="-1">
+                <ComposerItem width="36.0854" x="0" transparency="0" y="0" height="38.7312" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{dd8d121f-9a62-43a3-9d50-065b451a1150}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
+            <ComposerMap mapRotation="0" keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Cache" drawCanvasItems="true">
+                <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewCentered="false" overviewInverted="false">
+                    <symbol alpha="0.3" type="fill" name="">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="255,0,0,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </overviewFrame>
+                <Extent ymin="1131870.34828207246027887" xmin="252169.38113707350566983" ymax="1132294.01400758675299585" xmax="252776.98517627269029617"/>
+                <LayerSet/>
+                <Grid gridStyle="0" crossLength="3" gridFramePenThickness="0.5" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+                    <framePenColor alpha="255" red="0" blue="0" green="0"/>
+                    <frameFillColor1 alpha="255" red="255" blue="255" green="255"/>
+                    <frameFillColor2 alpha="255" red="0" blue="0" green="0"/>
+                    <symbol alpha="1" type="line" name="">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="flat"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.3"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0">
+                        <fontColor alpha="255" red="0" blue="0" green="0"/>
+                    </Annotation>
+                </Grid>
+                <AtlasMap fixedScale="0" atlasDriven="0" margin="0.10000000000000001"/>
+                <ComposerItem width="297" x="0" transparency="0" y="0" height="207.09" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{74f344a9-a2e9-4a06-a56d-11e7637360dd}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerMap>
+        </Composition>
+    </Composer>
+    <projectlayers layercount="19">
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>2013_Kenai_Peninsula_CIR_Orthomosaic20140528095325620</id>
             <datasource>crs=EPSG:4326&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=EPSCOR.KENAI.ORTHO-MOSAIC.2013.CIR&amp;styles=&amp;url=http://ogc.gina.alaska.edu/epscor</datasource>
@@ -3760,14 +3972,14 @@
             <blendMode>0</blendMode>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-            <id>AHAP_1980_Historical_Aerial_Orthoimagery_AHAP_1978_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery_USFWS_1950_Historical_Aerial_Orthoimagery20140528112112642</id>
-            <datasource>crs=EPSG:3338&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=EPSCOR.KENAI.HISTORICAL.USFWS.1950&amp;layers=EPSCOR.KENAI.HISTORICAL.USGS.1950&amp;layers=EPSCOR.KENAI.HISTORICAL.AHAP.1978&amp;layers=EPSCOR.KENAI.HISTORICAL.AHAP.1980&amp;styles=&amp;styles=&amp;styles=&amp;styles=&amp;url=http://ogc.gina.alaska.edu/epscor</datasource>
+            <id>AHAP_1980_Historical_Aerial_Orthoimagery20140529091654524</id>
+            <datasource>crs=EPSG:3338&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=EPSCOR.KENAI.HISTORICAL.AHAP.1980&amp;styles=&amp;url=http://ogc.gina.alaska.edu/epscor</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>AHAP 1980 Historical Aerial Orthoimagery/AHAP 1978 Historical Aerial Orthoimagery/USGS 1950 Historical Aerial Orthoimagery/USFWS 1950 Historical Aerial Orthoimagery</layername>
+            <layername>AHAP 1980 Historical Aerial Orthoimagery</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -4075,41 +4287,6 @@
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
-        </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-            <id>EPSCoR20140527103808501</id>
-            <datasource>crs=EPSG:4326&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=EPSCOR&amp;styles=&amp;url=http://ogc.gina.alaska.edu/epscor</datasource>
-            <title></title>
-            <abstract></abstract>
-            <keywordList>
-                <value></value>
-            </keywordList>
-            <layername>EPSCoR</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-                    <srsid>3452</srsid>
-                    <srid>4326</srid>
-                    <authid>EPSG:4326</authid>
-                    <description>WGS 84</description>
-                    <projectionacronym>longlat</projectionacronym>
-                    <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>true</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <customproperties>
-                <property key="identify/format" value="Undefined"/>
-            </customproperties>
-            <provider>wms</provider>
-            <pipe>
-                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
-                    <rasterTransparency/>
-                </rasterrenderer>
-                <brightnesscontrast brightness="0" contrast="0"/>
-                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-                <rasterresampler maxOversampling="2"/>
-            </pipe>
-            <blendMode>0</blendMode>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>MBTSites20140520134302704</id>
@@ -4808,7 +4985,215 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>SDMI_Inventory20140602095421038</id>
+            <datasource>http://wfs.alaskamapped.org/inventory?SERVICE=WFS&amp;VERSION=1.0.0&amp;REQUEST=GetFeature&amp;TYPENAME=SDMI_Inventory&amp;SRSNAME=EPSG:4326</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>SDMI_Inventory</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="System">WFS</provider>
+            <previewExpression></previewExpression>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="3,6,183,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="no"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation/>
+                <sizescale scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/blendMode" value="0"/>
+                <property key="labeling/bufferBlendMode" value="0"/>
+                <property key="labeling/bufferColorA" value="255"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/decimals" value="3"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="8.25"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="false"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/quadOffset" value="4"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="10000000"/>
+                <property key="labeling/scaleMin" value="1"/>
+                <property key="labeling/scaleVisibility" value="false"/>
+                <property key="labeling/shadowBlendMode" value="6"/>
+                <property key="labeling/shadowColorB" value="0"/>
+                <property key="labeling/shadowColorG" value="0"/>
+                <property key="labeling/shadowColorR" value="0"/>
+                <property key="labeling/shadowDraw" value="false"/>
+                <property key="labeling/shadowOffsetAngle" value="135"/>
+                <property key="labeling/shadowOffsetDist" value="1"/>
+                <property key="labeling/shadowOffsetGlobal" value="true"/>
+                <property key="labeling/shadowOffsetUnits" value="1"/>
+                <property key="labeling/shadowRadius" value="1.5"/>
+                <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+                <property key="labeling/shadowRadiusUnits" value="1"/>
+                <property key="labeling/shadowScale" value="100"/>
+                <property key="labeling/shadowTransparency" value="30"/>
+                <property key="labeling/shadowUnder" value="0"/>
+                <property key="labeling/shapeBlendMode" value="0"/>
+                <property key="labeling/shapeBorderColorA" value="255"/>
+                <property key="labeling/shapeBorderColorB" value="128"/>
+                <property key="labeling/shapeBorderColorG" value="128"/>
+                <property key="labeling/shapeBorderColorR" value="128"/>
+                <property key="labeling/shapeBorderWidth" value="0"/>
+                <property key="labeling/shapeBorderWidthUnits" value="1"/>
+                <property key="labeling/shapeDraw" value="false"/>
+                <property key="labeling/shapeFillColorA" value="255"/>
+                <property key="labeling/shapeFillColorB" value="255"/>
+                <property key="labeling/shapeFillColorG" value="255"/>
+                <property key="labeling/shapeFillColorR" value="255"/>
+                <property key="labeling/shapeJoinStyle" value="64"/>
+                <property key="labeling/shapeOffsetUnits" value="1"/>
+                <property key="labeling/shapeOffsetX" value="0"/>
+                <property key="labeling/shapeOffsetY" value="0"/>
+                <property key="labeling/shapeRadiiUnits" value="1"/>
+                <property key="labeling/shapeRadiiX" value="0"/>
+                <property key="labeling/shapeRadiiY" value="0"/>
+                <property key="labeling/shapeRotation" value="0"/>
+                <property key="labeling/shapeRotationType" value="0"/>
+                <property key="labeling/shapeSVGFile" value=""/>
+                <property key="labeling/shapeSizeType" value="0"/>
+                <property key="labeling/shapeSizeUnits" value="1"/>
+                <property key="labeling/shapeSizeX" value="0"/>
+                <property key="labeling/shapeSizeY" value="0"/>
+                <property key="labeling/shapeTransparency" value="0"/>
+                <property key="labeling/shapeType" value="0"/>
+                <property key="labeling/textColorA" value="255"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+            </customproperties>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>0</layerTransparency>
+            <displayfield>objectid</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="MS Shell Dlg 2"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype labelontop="0" editable="1" type="0" name="contact"/>
+                <edittype labelontop="0" editable="1" type="0" name="downloadable"/>
+                <edittype labelontop="0" editable="1" type="0" name="end_time"/>
+                <edittype labelontop="0" editable="1" type="0" name="id"/>
+                <edittype labelontop="0" editable="1" type="0" name="license_type"/>
+                <edittype labelontop="0" editable="1" type="0" name="objectid"/>
+                <edittype labelontop="0" editable="1" type="0" name="ranking"/>
+                <edittype labelontop="0" editable="1" type="0" name="scale_visible"/>
+                <edittype labelontop="0" editable="1" type="0" name="scene_id"/>
+                <edittype labelontop="0" editable="1" type="0" name="source_res"/>
+                <edittype labelontop="0" editable="1" type="0" name="start_time"/>
+                <edittype labelontop="0" editable="1" type="0" name="url"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <featformsuppress>0</featformsuppress>
+            <annotationform>.</annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>UBCommunities20140520134314909</id>
             <datasource>../../../Downloads/Alaska SHP's/UB Comm/UBCommunities.shp</datasource>
             <title></title>
@@ -5251,41 +5636,6 @@
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
-        </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-            <id>USFWS_1950_Historical_Aerial_Orthoimagery20140528112450211</id>
-            <datasource>crs=EPSG:3338&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=EPSCOR.KENAI.HISTORICAL.USFWS.1950&amp;styles=&amp;url=http://ogc.gina.alaska.edu/epscor</datasource>
-            <title></title>
-            <abstract></abstract>
-            <keywordList>
-                <value></value>
-            </keywordList>
-            <layername>USFWS 1950 Historical Aerial Orthoimagery</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>1296</srsid>
-                    <srid>3338</srid>
-                    <authid>EPSG:3338</authid>
-                    <description>NAD83 / Alaska Albers</description>
-                    <projectionacronym>aea</projectionacronym>
-                    <ellipsoidacronym>GRS80</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <customproperties>
-                <property key="identify/format" value="Undefined"/>
-            </customproperties>
-            <provider>wms</provider>
-            <pipe>
-                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
-                    <rasterTransparency/>
-                </rasterrenderer>
-                <brightnesscontrast brightness="0" contrast="0"/>
-                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-                <rasterresampler maxOversampling="2"/>
-            </pipe>
-            <blendMode>0</blendMode>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>USGS_1950_Historical_Aerial_Orthoimagery20140528112335900</id>
@@ -5941,15 +6291,37 @@
         </maplayer>
     </projectlayers>
     <properties>
-        <SpatialRefSys>
-            <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
-            <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
-            <ProjectCRSID type="int">3452</ProjectCRSID>
-            <ProjectionsEnabled type="int">1</ProjectionsEnabled>
-        </SpatialRefSys>
+        <WMSContactPerson type="QString"></WMSContactPerson>
+        <WMSOnlineResource type="QString"></WMSOnlineResource>
+        <WMSContactOrganization type="QString"></WMSContactOrganization>
+        <WMSKeywordList type="QStringList">
+            <value></value>
+        </WMSKeywordList>
+        <WFSUrl type="QString"></WFSUrl>
         <Paths>
             <Absolute type="bool">false</Absolute>
         </Paths>
+        <WMSServiceTitle type="QString"></WMSServiceTitle>
+        <WFSLayers type="QStringList"/>
+        <WMSContactMail type="QString"></WMSContactMail>
+        <PositionPrecision>
+            <DecimalPlaces type="int">2</DecimalPlaces>
+            <Automatic type="bool">true</Automatic>
+            <DegreeFormat type="QString">D</DegreeFormat>
+        </PositionPrecision>
+        <WCSUrl type="QString"></WCSUrl>
+        <WMSContactPhone type="QString"></WMSContactPhone>
+        <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+        <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+        <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+        <Measure>
+            <Ellipsoid type="QString">GRS80</Ellipsoid>
+        </Measure>
+        <WFSTLayers>
+            <Insert type="QStringList"/>
+            <Update type="QStringList"/>
+            <Delete type="QStringList"/>
+        </WFSTLayers>
         <Gui>
             <SelectionColorBluePart type="int">0</SelectionColorBluePart>
             <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
@@ -5959,9 +6331,29 @@
             <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
             <CanvasColorBluePart type="int">255</CanvasColorBluePart>
         </Gui>
-        <PositionPrecision>
-            <DecimalPlaces type="int">2</DecimalPlaces>
-            <Automatic type="bool">true</Automatic>
-        </PositionPrecision>
+        <Identify>
+            <disabledLayers type="QStringList"/>
+        </Identify>
+        <Macros>
+            <pythonCode type="QString"></pythonCode>
+        </Macros>
+        <WMSAccessConstraints type="QString"></WMSAccessConstraints>
+        <WCSLayers type="QStringList"/>
+        <SpatialRefSys>
+            <ProjectCRSProj4String type="QString">+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</ProjectCRSProj4String>
+            <ProjectCrs type="QString">EPSG:3338</ProjectCrs>
+            <ProjectCRSID type="int">1296</ProjectCRSID>
+            <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+        </SpatialRefSys>
+        <DefaultStyles>
+            <Fill type="QString"></Fill>
+            <Line type="QString"></Line>
+            <Marker type="QString"></Marker>
+            <RandomColors type="bool">true</RandomColors>
+            <AlphaInt type="int">255</AlphaInt>
+            <ColorRamp type="QString"></ColorRamp>
+        </DefaultStyles>
+        <WMSFees type="QString"></WMSFees>
+        <WMSUrl type="QString"></WMSUrl>
     </properties>
 </qgis>
