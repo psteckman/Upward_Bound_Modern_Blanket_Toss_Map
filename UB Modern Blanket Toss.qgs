@@ -5,10 +5,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>-542892.94206773897167295</xmin>
-            <ymin>1859068.64293747046031058</ymin>
-            <xmax>-541004.47325222904328257</xmax>
-            <ymax>1860139.66073757084086537</ymax>
+            <xmin>-850068.13083354756236076</xmin>
+            <ymin>667124.29792436410207301</ymin>
+            <xmax>1761357.20438711997121572</xmax>
+            <ymax>2148156.44136472977697849</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -4013,13 +4013,13 @@
                 </layer>
             </symbol>
             <ComposerPicture pictureRotation="0" pictureWidth="48.2522" file="../../../Downloads/gina_svg/gina_svg/ginacompassN_transparent.svg" pictureHeight="37.2858" mapId="-1">
-                <ComposerItem width="48.2522" x="265.101" transparency="0" y="168.693" height="47.2513" positionMode="0" frame="false" outlineWidth="0.3" zValue="21" itemRotation="10" lastValidViewScaleFactor="3.77953" uuid="{245826fc-0f85-4ebd-84d2-4520d3d4311c}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem width="48.2522" x="265.101" transparency="0" y="168.693" height="47.2513" positionMode="0" frame="false" outlineWidth="0.3" zValue="8" itemRotation="10" lastValidViewScaleFactor="3.77953" uuid="{245826fc-0f85-4ebd-84d2-4520d3d4311c}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerPicture>
             <ComposerScaleBar penColor="#ffffff" style="Single Box" numMapUnitsPerScaleBarUnit="1" alignment="0" brushColor="#000000" numSegments="2" segmentMillimeters="31.5318" fontColor="#ffffff" font="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" numUnitsPerSegment="200" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" height="3" mapId="0" boxContentSpace="1" unitLabel="m">
-                <ComposerItem width="77.6636" x="109.668" transparency="0" y="197.8" height="12.2" positionMode="0" frame="false" outlineWidth="0.3" zValue="20" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{6ed577d2-6ed3-4406-b629-cf11b44c5ca7}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem width="77.6636" x="109.668" transparency="0" y="197.8" height="12.2" positionMode="0" frame="false" outlineWidth="0.3" zValue="7" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{6ed577d2-6ed3-4406-b629-cf11b44c5ca7}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -4027,33 +4027,33 @@
             <ComposerLabel valign="128" labelText="Image Date: 13-Dec-2010" htmlState="0" halign="4" margin="1">
                 <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="22.5479" x="0" transparency="0" y="199.46" height="10.5396" positionMode="0" frame="false" outlineWidth="0.3" zValue="19" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{a3a16b48-320b-47dc-bd49-e4605fb10d34}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="22.5479" x="0" transparency="0" y="199.46" height="10.5396" positionMode="0" frame="false" outlineWidth="0.3" zValue="6" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{a3a16b48-320b-47dc-bd49-e4605fb10d34}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="122" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
-            <ComposerLabel valign="128" labelText="Shishmaref Arifield" htmlState="0" halign="4" margin="1">
+            <ComposerLabel valign="128" labelText="Shishmaref Airfield" htmlState="0" halign="4" margin="1">
                 <LabelFont description="Orbitron,14,-1,5,87,0,0,0,0,0"/>
                 <FontColor red="77" blue="77" green="77"/>
-                <ComposerItem width="44.2542" x="126.373" transparency="0" y="0.003125" height="13.4958" positionMode="0" frame="false" outlineWidth="0.3" zValue="18" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{9c285610-c0ca-4345-a21c-5f5a558d163d}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem width="44.2542" x="126.373" transparency="0" y="0.003125" height="13.4958" positionMode="0" frame="false" outlineWidth="0.3" zValue="5" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{9c285610-c0ca-4345-a21c-5f5a558d163d}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
             <ComposerPicture pictureRotation="0" pictureWidth="24.7083" file="../../../Desktop/Logos/test4.png" pictureHeight="11.6129" mapId="-1">
-                <ComposerItem width="24.7083" x="0" transparency="0" y="18.5771" height="12.0083" positionMode="0" frame="false" outlineWidth="0.3" zValue="17" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{4f76b2d9-949c-4999-8189-fbda1de71e0f}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem width="24.7083" x="0" transparency="0" y="18.5771" height="12.0083" positionMode="0" frame="false" outlineWidth="0.3" zValue="4" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{4f76b2d9-949c-4999-8189-fbda1de71e0f}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerPicture>
-            <ComposerPicture pictureRotation="0" pictureWidth="23.6979" file="../../../Desktop/Logos/EPSCOR 2.png" pictureHeight="10.1563" mapId="-1">
-                <ComposerItem width="24.7083" x="0" transparency="0" y="8.42083" height="10.1563" positionMode="0" frame="false" outlineWidth="0.3" zValue="16" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{b36bd3e8-1aeb-444b-b1f4-0aae0a592dc4}" id="" background="false" blendMode="0" positionLock="false">
+            <ComposerPicture pictureRotation="0" pictureWidth="23.698" file="../../../Desktop/Logos/EPSCOR 2.png" pictureHeight="10.1563" mapId="-1">
+                <ComposerItem width="24.7083" x="0" transparency="0" y="8.42083" height="10.1563" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{b36bd3e8-1aeb-444b-b1f4-0aae0a592dc4}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerPicture>
-            <ComposerPicture pictureRotation="0" pictureWidth="24.7083" file="../../../Desktop/Logos/GINA 2.png" pictureHeight="7.4831" mapId="-1">
-                <ComposerItem width="24.7083" x="0" transparency="0" y="0" height="10.4208" positionMode="0" frame="false" outlineWidth="0.3" zValue="15" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{65dbd471-e6d6-44b6-9eaa-1fa5804f833f}" id="" background="false" blendMode="0" positionLock="false">
+            <ComposerPicture pictureRotation="0" pictureWidth="24.7083" file="../../../Desktop/Logos/GINA 2.png" pictureHeight="7.48309" mapId="-1">
+                <ComposerItem width="24.7083" x="0" transparency="0" y="0" height="10.4208" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{65dbd471-e6d6-44b6-9eaa-1fa5804f833f}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -4100,7 +4100,7 @@
                     </Annotation>
                 </Grid>
                 <AtlasMap fixedScale="0" atlasDriven="0" margin="0.10000000000000001"/>
-                <ComposerItem width="297" x="0" transparency="0" y="0" height="210" positionMode="0" frame="false" outlineWidth="0.3" zValue="14" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{c1486d60-66a2-41d5-8402-53d99a1d21ea}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="297" x="0" transparency="0" y="0" height="210" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{c1486d60-66a2-41d5-8402-53d99a1d21ea}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
