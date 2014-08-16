@@ -5,10 +5,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>-850068.13083354756236076</xmin>
-            <ymin>667124.29792436410207301</ymin>
-            <xmax>1761357.20438711997121572</xmax>
-            <ymax>2148156.44136472977697849</ymax>
+            <xmin>291204.29673610278405249</xmin>
+            <ymin>1668403.87187927565537393</ymin>
+            <xmax>292414.91382718551903963</xmax>
+            <ymax>1669090.45586891146376729</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -35,7 +35,7 @@
             <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="SDMI_Inventory20140602095421038"/>
         </layer_coordinate_transform_info>
     </mapcanvas>
-    <legend updateDrawingOrder="true" activeLayer="UBCommunities20140520134314909">
+    <legend updateDrawingOrder="true" activeLayer="alaska_250000_ln20140812085912516">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="UBCommunities" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="UBCommunities20140520134314909" visible="1"/>
@@ -3912,39 +3912,48 @@
                     <prop k="width_border" v="0.26"/>
                 </layer>
             </symbol>
-            <ComposerLabel valign="32" labelText="QGIS" htmlState="0" halign="1" margin="1">
+            <ComposerLabel valign="128" labelText="Image Date: 31-Dec-2013" htmlState="0" halign="4" margin="1">
                 <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="11.7" x="25.6646" transparency="0" y="108.744" height="7.1" positionMode="0" frame="false" outlineWidth="0.3" zValue="6" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{55497c6b-3c1a-4040-9ee6-24ba402f1b93}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="24.4" x="3.55271e-15" transparency="0" y="199.229" height="10.7708" positionMode="0" frame="false" outlineWidth="0.3" zValue="26" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{ac764223-3364-40ff-af07-b49efcdcb0c5}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="122" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="Seward High School / Middle School / Elementary School" htmlState="0" halign="4" margin="1">
+                <LabelFont description="Orbitron,14,-1,5,87,0,0,0,0,0"/>
+                <FontColor red="150" blue="150" green="150"/>
+                <ComposerItem width="76.2583" x="110.371" transparency="0" y="-0.03125" height="19.499" positionMode="0" frame="false" outlineWidth="0.3" zValue="25" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{3655155c-0abb-4c96-841e-b7c0f5bfcd85}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
-            <ComposerScaleBar penColor="#ffffff" style="Single Box" numMapUnitsPerScaleBarUnit="1" alignment="0" brushColor="#000000" numSegments="2" segmentMillimeters="48.6971" fontColor="#ffffff" font="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" numUnitsPerSegment="100" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" height="3" mapId="0" boxContentSpace="1" unitLabel="m">
-                <ComposerItem width="111.994" x="92.5029" transparency="0" y="194.89" height="12.2" positionMode="0" frame="false" outlineWidth="0.3" zValue="5" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{444302f9-690e-446a-bf9b-b91e3db3932b}" id="" background="true" blendMode="0" positionLock="false">
+            <ComposerPicture pictureRotation="356.5" pictureWidth="57.0485" file="../../../Downloads/gina_svg/gina_svg/ginacompassN_transparent.svg" pictureHeight="44.083" mapId="-1">
+                <ComposerItem width="59.6333" x="254.3" transparency="0" y="165.479" height="61.2208" positionMode="0" frame="false" outlineWidth="0.3" zValue="24" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{ee5be1de-a6f7-4021-a63d-d1ae250d086d}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
+            <ComposerScaleBar penColor="#ffffff" style="Single Box" numMapUnitsPerScaleBarUnit="1" alignment="0" brushColor="#000000" numSegments="2" segmentMillimeters="50.8989" fontColor="#ffffff" font="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" numUnitsPerSegment="200" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" height="3" mapId="0" boxContentSpace="1" unitLabel="m">
+                <ComposerItem width="116.398" x="90.3011" transparency="0" y="197.8" height="12.2" positionMode="0" frame="false" outlineWidth="0.3" zValue="23" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{0d2b727a-0e1a-40b2-a7a3-c58a0155e6b2}" id="" background="false" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerScaleBar>
-            <ComposerArrow startMarkerFile="" arrowHeadWidth="4" endMarkerFile="" outlineWidth="1" markerMode="0">
-                <ArrowColor alpha="255" red="255" blue="255" green="255"/>
-                <StartPoint x="314.082" y="178.594"/>
-                <StopPoint x="292.307" y="178.594"/>
-                <ComposerItem width="26.775" x="289.807" transparency="0" y="176.094" height="5" positionMode="0" frame="false" outlineWidth="0" zValue="4" itemRotation="86.5" lastValidViewScaleFactor="3.77953" uuid="{30d5bd39-c7dd-4ecf-bea0-d2939db82a3e}" id="" background="true" blendMode="0" positionLock="false">
-                    <FrameColor alpha="0" red="255" blue="255" green="255"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerArrow>
-            <ComposerLabel valign="128" labelText="Alaska SeaLife Center - Seward, Alaska" htmlState="0" halign="4" margin="1">
-                <LabelFont description="MS Shell Dlg 2,14,-1,5,75,0,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="61.1771" x="117.911" transparency="0" y="0" height="14.2438" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{cda5a699-3e9d-4bce-9886-4041fc181cce}" id="" background="true" blendMode="0" positionLock="false">
+            <ComposerPicture pictureRotation="0" pictureWidth="28.3644" file="../../../Desktop/Logos/UB 3.png" pictureHeight="13.3313" mapId="-1">
+                <ComposerItem width="30" x="3.55271e-15" transparency="0" y="25.6042" height="13.3313" positionMode="0" frame="false" outlineWidth="0.3" zValue="22" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{d7a45764-a2bc-4533-94ae-7b2264788aa1}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
-            </ComposerLabel>
-            <ComposerPicture pictureRotation="0" pictureWidth="36.0854" file="../../../Desktop/Logos/All images combined.jpg" pictureHeight="35.4187" mapId="-1">
-                <ComposerItem width="36.0854" x="0" transparency="0" y="0" height="38.7312" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{dd8d121f-9a62-43a3-9d50-065b451a1150}" id="" background="true" blendMode="0" positionLock="false">
+            </ComposerPicture>
+            <ComposerPicture pictureRotation="0" pictureWidth="28.6368" file="../../../Desktop/Logos/EPSCOR 2.png" pictureHeight="12.2729" mapId="-1">
+                <ComposerItem width="30" x="0" transparency="0" y="13.3313" height="12.2729" positionMode="0" frame="false" outlineWidth="0.3" zValue="21" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{1cc59457-12d3-494a-a2f7-28ea2891a984}" id="" background="false" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
+            <ComposerPicture pictureRotation="0" pictureWidth="30" file="../../../Desktop/Logos/GINA 2.png" pictureHeight="9.08571" mapId="-1">
+                <ComposerItem width="30" x="0" transparency="0" y="0" height="13.3313" positionMode="0" frame="false" outlineWidth="0.3" zValue="20" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{c9f4665f-045f-452a-a360-86f7f0725e1e}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -3964,7 +3973,7 @@
                         </layer>
                     </symbol>
                 </overviewFrame>
-                <Extent ymin="1131870.34828207246027887" xmin="252169.38113707350566983" ymax="1132294.01400758675299585" xmax="252776.98517627269029617"/>
+                <Extent ymin="1135218.52976906462572515" xmin="251689.96625277027487755" ymax="1136040.59703987301327288" xmax="252852.60425005637807772"/>
                 <LayerSet/>
                 <Grid gridStyle="0" crossLength="3" gridFramePenThickness="0.5" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
                     <framePenColor alpha="255" red="0" blue="0" green="0"/>
@@ -3991,7 +4000,7 @@
                     </Annotation>
                 </Grid>
                 <AtlasMap fixedScale="0" atlasDriven="0" margin="0.10000000000000001"/>
-                <ComposerItem width="297" x="0" transparency="0" y="0" height="207.09" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="2.03119" uuid="{74f344a9-a2e9-4a06-a56d-11e7637360dd}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="297" x="0" transparency="0" y="0" height="210" positionMode="0" frame="false" outlineWidth="0.3" zValue="19" itemRotation="0" lastValidViewScaleFactor="3.77953" uuid="{2915dbe2-d9d7-478b-8945-f84c741ff6f5}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
