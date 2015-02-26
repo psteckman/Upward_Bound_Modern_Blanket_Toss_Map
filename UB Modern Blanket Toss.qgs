@@ -5,10 +5,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>252983.92562608065782115</xmin>
-            <ymin>1127501.41473856614902616</ymin>
-            <xmax>265694.1791411594604142</xmax>
-            <ymax>1134674.69175487849861383</ymax>
+            <xmin>204320.18459667274146341</xmin>
+            <ymin>1101138.61504080635495484</ymin>
+            <xmax>326336.62529609457124025</xmax>
+            <ymax>1170000.94958378304727376</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -38,10 +38,10 @@
             <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="wirth_MBT_imagery20141113115115975"/>
         </layer_coordinate_transform_info>
     </mapcanvas>
-    <legend updateDrawingOrder="true" activeLayer="orthoQB02_04JUN202115474_M1BS_1010010003097500_u16ns333820150126154503799">
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="DRG_WITHOUT_SCALE_LIMITS" showFeatureCount="0">
+    <legend updateDrawingOrder="true" activeLayer="orthoQB02_02AUG012101259_M1BS_1010010000E87C00_u16ns333820141204172414661">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="DRG_WITHOUT_SCALE_LIMITS" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="DRG_WITHOUT_SCALE_LIMITS20141204133312560" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="DRG_WITHOUT_SCALE_LIMITS20141204133312560" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="orthoWV02_12OCT092135383-P1BS-103001001C7ECD00_u16ns3338" showFeatureCount="0">
@@ -49,9 +49,9 @@
                 <legendlayerfile isInOverview="0" layerid="orthoWV02_12OCT092135383_P1BS_103001001C7ECD00_u16ns333820150121154918659" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="orthoWV01_11NOV052136349-P1BS-1020010016B29500_u16ns3338" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="orthoWV01_11NOV052136349-P1BS-1020010016B29500_u16ns3338" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="orthoWV01_11NOV052136349_P1BS_1020010016B29500_u16ns333820150126154711811" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="orthoWV01_11NOV052136349_P1BS_1020010016B29500_u16ns333820150126154711811" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="orthoQB02_08MAY262127578-P1BS-101001000815C500_u16ns3338" showFeatureCount="0">
@@ -92,6 +92,11 @@
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="wirth_MBT_imagery" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="wirth_MBT_imagery20141113115115975" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="UBCommunities" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="UBCommunities20140520134314909" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BDL WMS" showFeatureCount="0">
@@ -162,11 +167,6 @@
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="PhotoLoc" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="PhotoLoc20140818105534841" visible="0"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="UBCommunities" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="UBCommunities20140520134314909" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Places" showFeatureCount="0">
@@ -6105,7 +6105,7 @@
                 </layer>
             </symbol>
             <ComposerScaleBar penColor="#ffffff" style="Single Box" numMapUnitsPerScaleBarUnit="1" alignment="0" brushColor="#000000" numSegments="2" segmentMillimeters="55.825" fontColor="#ffffff" font="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" numUnitsPerSegment="500" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" height="3" mapId="0" boxContentSpace="1" unitLabel="m">
-                <ComposerItem width="127.6" x="85.28" transparency="0" y="196.304" height="12.2" positionMode="0" frame="false" outlineWidth="0.3" zValue="9" itemRotation="0" lastValidViewScaleFactor="3.54331" uuid="{cb912663-7947-4163-b894-20ec20117c9f}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem width="127.6" x="85.28" transparency="0" y="196.304" height="12.2" positionMode="0" frame="false" outlineWidth="0.3" zValue="8" itemRotation="0" lastValidViewScaleFactor="3.54331" uuid="{cb912663-7947-4163-b894-20ec20117c9f}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -6113,7 +6113,7 @@
             <ComposerLabel valign="128" labelText="Image Date: 28-MAY-2010" htmlState="0" halign="4" margin="1">
                 <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.2266" x="2.16891" transparency="0" y="198.3" height="10.2044" positionMode="0" frame="false" outlineWidth="0.3" zValue="8" itemRotation="0" lastValidViewScaleFactor="3.54331" uuid="{b19a85d1-3574-4d6f-bd8a-383c635bd1a3}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="24.2266" x="2.16891" transparency="0" y="198.3" height="10.2044" positionMode="0" frame="false" outlineWidth="0.3" zValue="7" itemRotation="0" lastValidViewScaleFactor="3.54331" uuid="{b19a85d1-3574-4d6f-bd8a-383c635bd1a3}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="100" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -6121,31 +6121,31 @@
             <ComposerLabel valign="128" labelText="Chefornak, Alaska" htmlState="0" halign="4" margin="1">
                 <LabelFont description="Orbitron,16,-1,5,87,0,0,0,0,0"/>
                 <FontColor red="53" blue="53" green="53"/>
-                <ComposerItem width="62.5" x="117.83" transparency="0" y="1.97556" height="7.98669" positionMode="0" frame="false" outlineWidth="0.3" zValue="7" itemRotation="0" lastValidViewScaleFactor="3.54331" uuid="{7a0ec383-4add-4ae8-8194-7361b42da311}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem width="62.5" x="117.83" transparency="0" y="1.97556" height="7.98669" positionMode="0" frame="false" outlineWidth="0.3" zValue="6" itemRotation="0" lastValidViewScaleFactor="3.54331" uuid="{7a0ec383-4add-4ae8-8194-7361b42da311}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
             <ComposerPicture pictureRotation="15" pictureWidth="43.159" file="../../../Downloads/gina_svg/gina_svg/ginacompassN_transparent.svg" pictureHeight="33.3501" mapId="-1">
-                <ComposerItem width="50.32" x="257.68" transparency="0" y="166.6" height="55.4" positionMode="0" frame="false" outlineWidth="0.3" zValue="6" itemRotation="0" lastValidViewScaleFactor="3.54331" uuid="{ff46a792-e258-4dcd-b051-6e6a56c651cf}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem width="50.32" x="257.68" transparency="0" y="166.6" height="55.4" positionMode="0" frame="false" outlineWidth="0.3" zValue="5" itemRotation="0" lastValidViewScaleFactor="3.54331" uuid="{ff46a792-e258-4dcd-b051-6e6a56c651cf}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerPicture>
-            <ComposerPicture pictureRotation="0" pictureWidth="25.0993" file="../../../Desktop/Logos/UB 3.png" pictureHeight="11.7967" mapId="-1">
-                <ComposerItem width="30.5644" x="1" transparency="0" y="23.6639" height="11.7967" positionMode="0" frame="false" outlineWidth="0.3" zValue="5" itemRotation="0" lastValidViewScaleFactor="3.54331" uuid="{9cc0d046-25e1-466b-acc5-0c3af5fcae7e}" id="" background="false" blendMode="0" positionLock="false">
+            <ComposerPicture pictureRotation="0" pictureWidth="25.0994" file="../../../Desktop/Logos/UB 3.png" pictureHeight="11.7967" mapId="-1">
+                <ComposerItem width="30.5644" x="1" transparency="0" y="23.6639" height="11.7967" positionMode="0" frame="false" outlineWidth="0.3" zValue="4" itemRotation="0" lastValidViewScaleFactor="3.54331" uuid="{9cc0d046-25e1-466b-acc5-0c3af5fcae7e}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerPicture>
-            <ComposerPicture pictureRotation="0" pictureWidth="27.1963" file="../../../Desktop/Logos/EPSCOR 2.png" pictureHeight="11.6556" mapId="-1">
-                <ComposerItem width="30.5644" x="1" transparency="0" y="11.9378" height="11.6556" positionMode="0" frame="false" outlineWidth="0.3" zValue="4" itemRotation="0" lastValidViewScaleFactor="3.54331" uuid="{7f9f5e8b-babb-4262-bbab-a73125b1064f}" id="" background="false" blendMode="0" positionLock="false">
+            <ComposerPicture pictureRotation="0" pictureWidth="27.1964" file="../../../Desktop/Logos/EPSCOR 2.png" pictureHeight="11.6556" mapId="-1">
+                <ComposerItem width="30.5644" x="1" transparency="0" y="11.9378" height="11.6556" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" itemRotation="0" lastValidViewScaleFactor="3.54331" uuid="{7f9f5e8b-babb-4262-bbab-a73125b1064f}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerPicture>
             <ComposerPicture pictureRotation="0" pictureWidth="30.5644" file="../../../Desktop/Logos/GINA 2.png" pictureHeight="9.25665" mapId="-1">
-                <ComposerItem width="30.5644" x="1" transparency="0" y="0.0705556" height="11.9378" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" itemRotation="0" lastValidViewScaleFactor="3.54331" uuid="{e45c835e-56cd-4f1a-b82b-89f50abd943f}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem width="30.5644" x="1" transparency="0" y="0.0705556" height="11.9378" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" itemRotation="0" lastValidViewScaleFactor="3.54331" uuid="{e45c835e-56cd-4f1a-b82b-89f50abd943f}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -6192,7 +6192,7 @@
                     </Annotation>
                 </Grid>
                 <AtlasMap fixedScale="0" atlasDriven="0" margin="0.10000000000000001"/>
-                <ComposerItem width="298" x="0.08" transparency="0" y="0" height="211" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" itemRotation="0" lastValidViewScaleFactor="3.54331" uuid="{a84803f1-14cc-47e7-abe5-278df41c3b83}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="298" x="0.08" transparency="0" y="0" height="211" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="3.54331" uuid="{a84803f1-14cc-47e7-abe5-278df41c3b83}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -6301,7 +6301,7 @@
                     </Annotation>
                 </Grid>
                 <AtlasMap fixedScale="0" atlasDriven="0" margin="0.10000000000000001"/>
-                <ComposerItem width="299" x="-1" transparency="0" y="0" height="211" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="3.6151" uuid="{e68c9f6a-3107-4353-a7f2-67e9cadd9b85}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="299" x="-1" transparency="0" y="0" height="211" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="3.54331" uuid="{e68c9f6a-3107-4353-a7f2-67e9cadd9b85}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -9306,7 +9306,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>quad420140904165111685</id>
-            <datasource>../../../Desktop/quad4.tif</datasource>
+            <datasource>../../../Desktop/Upward Bound MBT/Town imagery/UAF/quad4.tif</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
