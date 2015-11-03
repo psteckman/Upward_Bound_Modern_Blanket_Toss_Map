@@ -1,0 +1,9 @@
+{
+   "infoLayerEnabled": true, 
+   "infoBoxTemplate": "", 
+   "infoField": "", 
+   "infoBoxEnabled": false, 
+   "iconPath": "", 
+   "infoLayer": "MBTSites", 
+   "distanceBuffer": "100"
+}
