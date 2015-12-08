@@ -3,25 +3,28 @@
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="UBCommunities20140520134314909" name="UBCommunities">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Points_Shapefile20150727142604979" name="Points_Shapefile">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="MBTSites20140520134302704" name="MBTSites">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="MBT_Locations20151103151059392" name="MBT_Locations">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="MBTSites20140520134302704" name="MBTSites">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="alaska_63360_gen_ln20151020124116665" name="alaska_63360_gen_ln">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Major_Roads_ln20140519095542460" name="Major_Roads_ln">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Major_Roads_ln20140519095542460" name="Major_Roads_ln">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="UBCommunities20140520134314909" name="UBCommunities">
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Natural_Earth_I_with_Shaded_Relief__Water__and_Drainages20140520153824973" name="Natural Earth I with Shaded Relief, Water, and Drainages">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Checked" id="Natural_Earth_I_with_Shaded_Relief__Water__and_Drainages20140520153824973" name="Natural Earth I with Shaded Relief, Water, and Drainages">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="BDL_WMS20151020121755104" name="BDL WMS">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="BDL_WMS20151020121755104" name="BDL WMS">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Places20140522102650779" name="Places">
@@ -30,7 +33,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Cities_pt20140519100101222" name="Cities_pt">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Blue_Marble20140520153617227" name="Blue_Marble">
+    <layer-tree-layer expanded="0" checked="Qt::Checked" id="Blue_Marble20140520153617227" name="Blue_Marble">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -38,10 +41,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-2874241.98989282734692097</xmin>
-      <ymin>331781.37010666029527783</ymin>
-      <xmax>850985.5462919045239687</xmax>
-      <ymax>2442662.10794475907459855</ymax>
+      <xmin>-1749982.68350045662373304</xmin>
+      <ymin>6414.3364920795429498</ymin>
+      <xmax>1975244.85268427571281791</xmax>
+      <ymax>2117295.07433017715811729</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -67,12 +70,13 @@
       <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="orthoWV01_08OCT222225311_P1BS_102001000414D900_u16ns333820150714123434954"/>
       <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="orthoWV01_12AUG252121338_P1BS_102001001D93D900_u16ns333820150714160140264"/>
       <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="orthoWV01_10MAY282237209_P1BS_102001000DD83A00_u16ns333820150709160031824"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="MBT_Locations20151103151059392"/>
       <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="BDL_WMS20150803155126909"/>
       <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="EPSCoR20140527103808501"/>
       <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="orthoQB02_06MAY132143189_P1BS_1010010004F84600_u16ns333820150714141931195"/>
       <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="SDMI_Inventory20140602090729828"/>
-      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="Shishmaref_Image_6_WV20150617120502957"/>
       <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="BDL_WMS20151020121755104"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="Shishmaref_Image_6_WV20150617120502957"/>
       <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="SCTC20140527104111409"/>
       <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="orthoGE01_100919P0006533224A222000101242M_001678581_u16ns333820150714162828442"/>
       <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="orthoGE01_100919M0006533224A222000100312M_001678581_u16ns333820150714162740089"/>
@@ -155,17 +159,28 @@
       <item>Points_Shapefile20150727142604979</item>
       <item>BDL_WMS20151020121755104</item>
       <item>alaska_63360_gen_ln20151020124116665</item>
+      <item>MBT_Locations20151103151059392</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="UBCommunities" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="UBCommunities20140520134314909" visible="1"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Points_Shapefile" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="Points_Shapefile20150727142604979" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="MBTSites" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="MBT_Locations" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="MBTSites20140520134302704" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="MBT_Locations20151103151059392" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="MBTSites" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="MBTSites20140520134302704" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="alaska_63360_gen_ln" showFeatureCount="0">
@@ -173,24 +188,19 @@
         <legendlayerfile isInOverview="0" layerid="alaska_63360_gen_ln20151020124116665" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Major_Roads_ln" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Major_Roads_ln" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Major_Roads_ln20140519095542460" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="Major_Roads_ln20140519095542460" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="UBCommunities" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="UBCommunities20140520134314909" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Natural Earth I with Shaded Relief, Water, and Drainages" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Natural Earth I with Shaded Relief, Water, and Drainages" showFeatureCount="0">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Natural_Earth_I_with_Shaded_Relief__Water__and_Drainages20140520153824973" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Natural_Earth_I_with_Shaded_Relief__Water__and_Drainages20140520153824973" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="BDL WMS" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="BDL WMS" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="BDL_WMS20151020121755104" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="BDL_WMS20151020121755104" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Places" showFeatureCount="0">
@@ -203,9 +213,9 @@
         <legendlayerfile isInOverview="0" layerid="Cities_pt20140519100101222" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Blue_Marble" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Blue_Marble" showFeatureCount="0">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Blue_Marble20140520153617227" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="Blue_Marble20140520153617227" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -616,7 +626,7 @@
             </customproperties>
           </layer-tree-layer>
         </layer-tree-group>
-        <ComposerItem pagey="2" page="1" id="" lastValidViewScaleFactor="4.04448" positionMode="0" positionLock="true" x="229.5" y="2" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="163.4" outlineWidth="0.3" excludeFromExports="0" uuid="{5bc2d1ce-8d1e-4746-9548-f36defa1eefb}" height="337.6" itemRotation="0" frame="false" pagex="229.5">
+        <ComposerItem pagey="2" page="1" id="" lastValidViewScaleFactor="4.04448" positionMode="0" positionLock="true" x="229.5" y="2" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="163.4" outlineWidth="0.3" excludeFromExports="0" uuid="{5bc2d1ce-8d1e-4746-9548-f36defa1eefb}" height="336.6" itemRotation="0" frame="false" pagex="229.5">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="0" blue="127" green="0"/>
         </ComposerItem>
@@ -1374,7 +1384,7 @@
             </customproperties>
           </layer-tree-layer>
         </layer-tree-group>
-        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="252" y="0" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="163.4" outlineWidth="0.3" excludeFromExports="0" uuid="{0876ec0d-cab6-4668-bef5-5006afdae04e}" height="329.4" itemRotation="0" frame="true" pagex="252">
+        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="252" y="0" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="163.4" outlineWidth="0.3" excludeFromExports="0" uuid="{0876ec0d-cab6-4668-bef5-5006afdae04e}" height="328.4" itemRotation="0" frame="true" pagex="252">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
         </ComposerItem>
@@ -2639,7 +2649,7 @@
             </customproperties>
           </layer-tree-layer>
         </layer-tree-group>
-        <ComposerItem pagey="7.10543e-15" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="252.4" y="7.10543e-15" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="163.4" outlineWidth="0.3" excludeFromExports="0" uuid="{f753db89-10a2-4a91-bcb7-6cbabc82e92e}" height="268.2" itemRotation="0" frame="true" pagex="252.4">
+        <ComposerItem pagey="7.10543e-15" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="252.4" y="7.10543e-15" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="163.4" outlineWidth="0.3" excludeFromExports="0" uuid="{f753db89-10a2-4a91-bcb7-6cbabc82e92e}" height="267.2" itemRotation="0" frame="true" pagex="252.4">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
         </ComposerItem>
@@ -6107,7 +6117,7 @@
       </ComposerMap>
     </Composition>
   </Composer>
-  <Composer title="Upward Bound MBT map" visible="0">
+  <Composer title="Upward Bound MBT map" visible="1">
     <Composition gridVisible="0" printResolution="300" paperWidth="297" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" snapTolerancePixels="10" numPages="1" paperHeight="210" smartGuides="1" printAsRaster="0" generateWorldFile="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -6217,161 +6227,21 @@
               <property key="legend/title-style" value="hidden"/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="PhotoLoc20140818105534841" name="PhotoLoc">
-            <customproperties>
-              <property key="legend/title-style" value="hidden"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Attempt_320140822142126165" name="Attempt 3">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Raster20140822142459250" name="Raster">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="UAF_Oct12_2013mosaic_10cm20140822154521249" name="UAF_Oct12_2013mosaic_10cm">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Attempt_3_modified20140822155626212" name="Attempt 3_modified">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="quad420140904165111685" name="quad4">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="wirth_MBT_imagery20141113115115975" name="wirth_MBT_imagery">
-            <customproperties>
-              <property key="legend/title-style" value="hidden"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="USFWS_1950_Historical_Aerial_Orthoimagery_USGS_1950_Historical_Aerial_Orthoimagery20141204132436177" name="USFWS 1950 Historical Aerial Orthoimagery/USGS 1950 Historical Aerial Orthoimagery">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="DRG_WITHOUT_SCALE_LIMITS20141204133312560" name="DRG_WITHOUT_SCALE_LIMITS">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="AK_Features_20141005_PRIM20141204164610878" name="AK_Features_20141005_PRIM">
-            <customproperties>
-              <property key="legend/title-style" value="hidden"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="AK_Features_20141005_SOURCE20141204164614528" name="AK_Features_20141005_SOURCE">
-            <customproperties>
-              <property key="legend/title-style" value="hidden"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="orthoQB02_02AUG012101259_M1BS_1010010000E87C00_u16ns333820141204172414661" name="orthoQB02_02AUG012101259-M1BS-1010010000E87C00_u16ns3338">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="orthoQB02_02AUG012101259_P1BS_1010010000E87C00_u16ns333820141204172501866" name="orthoQB02_02AUG012101259-P1BS-1010010000E87C00_u16ns3338">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="orthoQB02_03JUL142103096_P1BS_1010010002174100_u16ns333820141204172610430" name="orthoQB02_03JUL142103096-P1BS-1010010002174100_u16ns3338">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="orthoQB02_03JUL142103096_M1BS_1010010002174100_u16ns333820141204172804026" name="orthoQB02_03JUL142103096-M1BS-1010010002174100_u16ns3338">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="orthoQB02_03JUL142103063_P1BS_1010010002174100_u16ns333820141204172847578" name="orthoQB02_03JUL142103063-P1BS-1010010002174100_u16ns3338">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="orthoQB02_03JUL142103063_M1BS_1010010002174100_u16ns333820141204172925446" name="orthoQB02_03JUL142103063-M1BS-1010010002174100_u16ns3338">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="orthoQB02_04JUN202115474_M1BS_1010010003097500_u16ns333820141204173035964" name="orthoQB02_04JUN202115474-M1BS-1010010003097500_u16ns3338">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="orthoQB02_04JUN202115436_M1BS_1010010003097500_u16ns333820141204173131458" name="orthoQB02_04JUN202115436-M1BS-1010010003097500_u16ns3338">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="orthoWV01_12AUG252120406_P1BS_102001001B9C6200_u16ns333820150121153736395" name="orthoWV01_12AUG252120406-P1BS-102001001B9C6200_u16ns3338">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="orthoWV02_12OCT092135383_P1BS_103001001C7ECD00_u16ns333820150121154918659" name="orthoWV02_12OCT092135383-P1BS-103001001C7ECD00_u16ns3338">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="orthoQB02_03JUN142206177_P1BS_1010010001FBF200_u16ns333820150121165328893" name="orthoQB02_03JUN142206177-P1BS-1010010001FBF200_u16ns3338">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="orthoWV01_10MAY282237209_P1BS_102001000DD83A00_u16ns333820150121165446304" name="orthoWV01_10MAY282237209-P1BS-102001000DD83A00_u16ns3338">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="orthoIK01_2003090722333160000010000050_msi_6040N_u16ns333820150121165551104" name="orthoIK01_2003090722333160000010000050_msi_6040N_u16ns3338">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="orthoQB02_04JUN202115474_M1BS_1010010003097500_u16ns333820150126154503799" name="orthoQB02_04JUN202115474-M1BS-1010010003097500_u16ns3338">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="orthoQB02_08MAY262127578_P1BS_101001000815C500_u16ns333820150126154611680" name="orthoQB02_08MAY262127578-P1BS-101001000815C500_u16ns3338">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="orthoWV01_11NOV052136349_P1BS_1020010016B29500_u16ns333820150126154711811" name="orthoWV01_11NOV052136349-P1BS-1020010016B29500_u16ns3338">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="orthoWV01_13JUN162217021_P1BS_1020010023125600_u16ns333820150225153051621" name="orthoWV01_13JUN162217021-P1BS-1020010023125600_u16ns3338">
-            <customproperties>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
         </layer-tree-group>
-        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="252.7" y="0" visibility="1" zValue="8" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="163.4" outlineWidth="0.3" excludeFromExports="0" uuid="{a5fbef17-5b1d-4504-9737-f7caa3b82dea}" height="200.8" itemRotation="0" frame="false" pagex="252.7">
+        <ComposerItem pagey="1" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="254.8" y="1" visibility="1" zValue="10" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.2" outlineWidth="0.3" excludeFromExports="0" uuid="{a5fbef17-5b1d-4504-9737-f7caa3b82dea}" height="16" itemRotation="0" frame="false" pagex="254.8">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="50" red="255" blue="255" green="255"/>
         </ComposerItem>
       </ComposerLegend>
-      <ComposerPicture resizeMode="0" pictureRotation="338" pictureWidth="33.2653" file="../../../Downloads/gina_svg/gina_svg/ginacompassN_transparent.svg" pictureHeight="33.4694" mapId="-1" anchorPoint="4">
-        <ComposerItem pagey="172.318" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="262.202" y="172.318" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="46.9333" outlineWidth="0.3" excludeFromExports="0" uuid="{4693291b-f37e-4894-83b5-5d8956223c09}" height="43.4937" itemRotation="0" frame="false" pagex="262.202">
+      <ComposerPicture resizeMode="0" pictureRotation="338" pictureWidth="38.5758" file="D:/Logos/official logo's/gina_svg/gina_svg/ginacompassN_transparent.svg" pictureHeight="29.8085" mapId="-1" anchorPoint="4">
+        <ComposerItem pagey="175.318" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="262.202" y="175.318" visibility="1" zValue="9" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="46.9333" outlineWidth="0.3" excludeFromExports="0" uuid="{4693291b-f37e-4894-83b5-5d8956223c09}" height="43.4937" itemRotation="0" frame="false" pagex="262.202">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
         </ComposerItem>
       </ComposerPicture>
-      <ComposerPicture resizeMode="0" pictureRotation="0" pictureWidth="11.6722" file="../../../Desktop/Logos/UB 3.png" pictureHeight="11.7438" mapId="-1" anchorPoint="4">
-        <ComposerItem pagey="18.4927" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="-3.55271e-15" y="18.4927" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="22.5917" outlineWidth="0.3" excludeFromExports="0" uuid="{1a4dc152-bab2-40b4-8f94-753b1e9929e2}" height="11.7438" itemRotation="0" frame="false" pagex="-3.55271e-15">
+      <ComposerPicture resizeMode="0" pictureRotation="0" pictureWidth="22.5917" file="D:/Logos/UB 3.png" pictureHeight="10.6181" mapId="-1" anchorPoint="4">
+        <ComposerItem pagey="19.4927" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="1" y="19.4927" visibility="1" zValue="8" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="22.5917" outlineWidth="0.3" excludeFromExports="0" uuid="{1a4dc152-bab2-40b4-8f94-753b1e9929e2}" height="11.7438" itemRotation="0" frame="false" pagex="1">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
@@ -6380,20 +6250,20 @@
       <ComposerLabel valign="128" marginX="1" marginY="1" labelText="Image Date: 2000" htmlState="0" halign="4">
         <LabelFont description="MS Shell Dlg 2,8,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="197.573" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="-3.55271e-15" y="197.573" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="18.8438" outlineWidth="0.3" excludeFromExports="0" uuid="{b498a5da-5cc6-4bd0-bbbf-6bf434431514}" height="8.69167" itemRotation="0" frame="false" pagex="-3.55271e-15">
+        <ComposerItem pagey="200.573" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="1" y="200.573" visibility="1" zValue="7" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="18.8438" outlineWidth="0.3" excludeFromExports="0" uuid="{b498a5da-5cc6-4bd0-bbbf-6bf434431514}" height="8.69167" itemRotation="0" frame="false" pagex="1">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="122" red="255" blue="255" green="255"/>
         </ComposerItem>
       </ComposerLabel>
-      <ComposerPicture resizeMode="0" pictureRotation="0" pictureWidth="10.6202" file="../../../Desktop/Logos/EPSCOR 2.png" pictureHeight="10.6854" mapId="-1" anchorPoint="4">
-        <ComposerItem pagey="7.80729" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="0" y="7.80729" visibility="1" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="22.5917" outlineWidth="0.3" excludeFromExports="0" uuid="{d96edbe2-575d-4a89-a946-339cbe732689}" height="10.6854" itemRotation="0" frame="false" pagex="0">
+      <ComposerPicture resizeMode="0" pictureRotation="0" pictureWidth="22.5917" file="D:/Logos/official logo's/EPSCOR 2.png" pictureHeight="9.68216" mapId="-1" anchorPoint="4">
+        <ComposerItem pagey="8.80729" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="1" y="8.80729" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="22.5917" outlineWidth="0.3" excludeFromExports="0" uuid="{d96edbe2-575d-4a89-a946-339cbe732689}" height="10.6854" itemRotation="0" frame="false" pagex="1">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="100" red="255" blue="255" green="255"/>
           <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
         </ComposerItem>
       </ComposerPicture>
-      <ComposerPicture resizeMode="0" pictureRotation="0" pictureWidth="9.04244" file="../../../Desktop/Logos/GINA 2.png" pictureHeight="9.09792" mapId="-1" anchorPoint="4">
-        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="0" y="0" visibility="1" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="22.5917" outlineWidth="0.3" excludeFromExports="0" uuid="{8835a779-2b45-4abc-9e31-ff2a3854a015}" height="9.09792" itemRotation="0" frame="false" pagex="0">
+      <ComposerPicture resizeMode="0" pictureRotation="0" pictureWidth="22.5917" file="D:/Logos/official logo's/GINA 2.png" pictureHeight="6.84206" mapId="-1" anchorPoint="4">
+        <ComposerItem pagey="1" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="1" y="1" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="22.5917" outlineWidth="0.3" excludeFromExports="0" uuid="{8835a779-2b45-4abc-9e31-ff2a3854a015}" height="9.09792" itemRotation="0" frame="false" pagex="1">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
@@ -6401,271 +6271,21 @@
       </ComposerPicture>
       <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="1000" segmentSizeMode="0" alignment="0" numSegments="4" segmentMillimeters="21.3516" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="250000" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" maxBarWidth="150" height="3" boxContentSpace="1" mapId="0" unitLabel="km">
         <scaleBarFont description="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0" style=""/>
-        <fillColor alpha="255" red="0" blue="0" green="0"/>
-        <fillColor2 alpha="255" red="255" blue="255" green="255"/>
+        <fillColor alpha="0" red="0" blue="0" green="0"/>
+        <fillColor2 alpha="0" red="0" blue="0" green="0"/>
         <strokeColor alpha="255" red="255" blue="255" green="255"/>
         <textColor alpha="255" red="255" blue="255" green="255"/>
-        <ComposerItem pagey="194.065" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="96.5719" y="194.065" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="103.856" outlineWidth="0.3" excludeFromExports="0" uuid="{db47f435-d088-47d0-ad65-bf007d44b5eb}" height="12.2" itemRotation="0" frame="false" pagex="96.5719">
+        <ComposerItem pagey="196.065" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="96.5719" y="196.065" visibility="1" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="103.856" outlineWidth="0.3" excludeFromExports="0" uuid="{db47f435-d088-47d0-ad65-bf007d44b5eb}" height="12.2" itemRotation="0" frame="false" pagex="96.5719">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="0" blue="0" green="0"/>
         </ComposerItem>
       </ComposerScaleBar>
       <ComposerMap mapRotation="0" keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="225070.70775303686968982" xmin="-1736123.07402370637282729" ymax="2655379.39989533368498087" xmax="1763266.94156915787607431"/>
+        <Extent ymin="6414.33649207931011915" xmin="-1749982.68350045662373304" ymax="2644075.44432757794857025" xmax="1975244.85268427571281791"/>
         <LayerSet/>
         <Grid/>
-        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{5ebff489-bc65-4d7a-bd23-430c5eca35c0}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
-          <lineStyle>
-            <symbol alpha="1" clip_to_extent="1" type="line" name="">
-              <layer pass="0" class="SimpleLine" locked="0">
-                <prop k="capstyle" v="flat"/>
-                <prop k="customdash" v="5;2"/>
-                <prop k="customdash_map_unit_scale" v="0,0"/>
-                <prop k="customdash_unit" v="MM"/>
-                <prop k="draw_inside_polygon" v="0"/>
-                <prop k="joinstyle" v="bevel"/>
-                <prop k="line_color" v="0,0,0,255"/>
-                <prop k="line_style" v="solid"/>
-                <prop k="line_width" v="0.3"/>
-                <prop k="line_width_unit" v="MM"/>
-                <prop k="offset" v="0"/>
-                <prop k="offset_map_unit_scale" v="0,0"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="use_custom_dash" v="0"/>
-                <prop k="width_map_unit_scale" v="0,0"/>
-                <effect enabled="0" type="effectStack">
-                  <effect type="dropShadow">
-                    <prop k="blend_mode" v="13"/>
-                    <prop k="blur_level" v="10"/>
-                    <prop k="color" v="0,0,0,255"/>
-                    <prop k="draw_mode" v="2"/>
-                    <prop k="enabled" v="0"/>
-                    <prop k="offset_angle" v="135"/>
-                    <prop k="offset_distance" v="2"/>
-                    <prop k="offset_unit" v="MM"/>
-                    <prop k="offset_unit_scale" v="0,0"/>
-                    <prop k="transparency" v="0"/>
-                  </effect>
-                  <effect type="outerGlow">
-                    <prop k="blend_mode" v="0"/>
-                    <prop k="blur_level" v="3"/>
-                    <prop k="color1" v="0,0,255,255"/>
-                    <prop k="color2" v="0,255,0,255"/>
-                    <prop k="color_type" v="0"/>
-                    <prop k="discrete" v="0"/>
-                    <prop k="draw_mode" v="2"/>
-                    <prop k="enabled" v="0"/>
-                    <prop k="single_color" v="255,255,255,255"/>
-                    <prop k="spread" v="2"/>
-                    <prop k="spread_unit" v="MM"/>
-                    <prop k="spread_unit_scale" v="0,0"/>
-                    <prop k="transparency" v="0.5"/>
-                  </effect>
-                  <effect type="drawSource">
-                    <prop k="blend_mode" v="0"/>
-                    <prop k="draw_mode" v="2"/>
-                    <prop k="enabled" v="1"/>
-                    <prop k="transparency" v="0"/>
-                  </effect>
-                  <effect type="innerShadow">
-                    <prop k="blend_mode" v="13"/>
-                    <prop k="blur_level" v="10"/>
-                    <prop k="color" v="0,0,0,255"/>
-                    <prop k="draw_mode" v="2"/>
-                    <prop k="enabled" v="0"/>
-                    <prop k="offset_angle" v="135"/>
-                    <prop k="offset_distance" v="2"/>
-                    <prop k="offset_unit" v="MM"/>
-                    <prop k="offset_unit_scale" v="0,0"/>
-                    <prop k="transparency" v="0"/>
-                  </effect>
-                  <effect type="innerGlow">
-                    <prop k="blend_mode" v="0"/>
-                    <prop k="blur_level" v="3"/>
-                    <prop k="color1" v="0,0,255,255"/>
-                    <prop k="color2" v="0,255,0,255"/>
-                    <prop k="color_type" v="0"/>
-                    <prop k="discrete" v="0"/>
-                    <prop k="draw_mode" v="2"/>
-                    <prop k="enabled" v="0"/>
-                    <prop k="single_color" v="255,255,255,255"/>
-                    <prop k="spread" v="2"/>
-                    <prop k="spread_unit" v="MM"/>
-                    <prop k="spread_unit_scale" v="0,0"/>
-                    <prop k="transparency" v="0.5"/>
-                  </effect>
-                </effect>
-              </layer>
-            </symbol>
-          </lineStyle>
-          <markerStyle>
-            <symbol alpha="1" clip_to_extent="1" type="marker" name="">
-              <layer pass="0" class="SimpleMarker" locked="0">
-                <prop k="angle" v="0"/>
-                <prop k="color" v="0,0,0,255"/>
-                <prop k="horizontal_anchor_point" v="1"/>
-                <prop k="name" v="circle"/>
-                <prop k="offset" v="0,0"/>
-                <prop k="offset_map_unit_scale" v="0,0"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="outline_color" v="0,0,0,255"/>
-                <prop k="outline_style" v="solid"/>
-                <prop k="outline_width" v="0"/>
-                <prop k="outline_width_map_unit_scale" v="0,0"/>
-                <prop k="outline_width_unit" v="MM"/>
-                <prop k="scale_method" v="area"/>
-                <prop k="size" v="2"/>
-                <prop k="size_map_unit_scale" v="0,0"/>
-                <prop k="size_unit" v="MM"/>
-                <prop k="vertical_anchor_point" v="1"/>
-                <effect enabled="0" type="effectStack">
-                  <effect type="dropShadow">
-                    <prop k="blend_mode" v="13"/>
-                    <prop k="blur_level" v="10"/>
-                    <prop k="color" v="0,0,0,255"/>
-                    <prop k="draw_mode" v="2"/>
-                    <prop k="enabled" v="0"/>
-                    <prop k="offset_angle" v="135"/>
-                    <prop k="offset_distance" v="2"/>
-                    <prop k="offset_unit" v="MM"/>
-                    <prop k="offset_unit_scale" v="0,0"/>
-                    <prop k="transparency" v="0"/>
-                  </effect>
-                  <effect type="outerGlow">
-                    <prop k="blend_mode" v="0"/>
-                    <prop k="blur_level" v="3"/>
-                    <prop k="color1" v="0,0,255,255"/>
-                    <prop k="color2" v="0,255,0,255"/>
-                    <prop k="color_type" v="0"/>
-                    <prop k="discrete" v="0"/>
-                    <prop k="draw_mode" v="2"/>
-                    <prop k="enabled" v="0"/>
-                    <prop k="single_color" v="255,255,255,255"/>
-                    <prop k="spread" v="2"/>
-                    <prop k="spread_unit" v="MM"/>
-                    <prop k="spread_unit_scale" v="0,0"/>
-                    <prop k="transparency" v="0.5"/>
-                  </effect>
-                  <effect type="drawSource">
-                    <prop k="blend_mode" v="0"/>
-                    <prop k="draw_mode" v="2"/>
-                    <prop k="enabled" v="1"/>
-                    <prop k="transparency" v="0"/>
-                  </effect>
-                  <effect type="innerShadow">
-                    <prop k="blend_mode" v="13"/>
-                    <prop k="blur_level" v="10"/>
-                    <prop k="color" v="0,0,0,255"/>
-                    <prop k="draw_mode" v="2"/>
-                    <prop k="enabled" v="0"/>
-                    <prop k="offset_angle" v="135"/>
-                    <prop k="offset_distance" v="2"/>
-                    <prop k="offset_unit" v="MM"/>
-                    <prop k="offset_unit_scale" v="0,0"/>
-                    <prop k="transparency" v="0"/>
-                  </effect>
-                  <effect type="innerGlow">
-                    <prop k="blend_mode" v="0"/>
-                    <prop k="blur_level" v="3"/>
-                    <prop k="color1" v="0,0,255,255"/>
-                    <prop k="color2" v="0,255,0,255"/>
-                    <prop k="color_type" v="0"/>
-                    <prop k="discrete" v="0"/>
-                    <prop k="draw_mode" v="2"/>
-                    <prop k="enabled" v="0"/>
-                    <prop k="single_color" v="255,255,255,255"/>
-                    <prop k="spread" v="2"/>
-                    <prop k="spread_unit" v="MM"/>
-                    <prop k="spread_unit_scale" v="0,0"/>
-                    <prop k="transparency" v="0.5"/>
-                  </effect>
-                </effect>
-              </layer>
-            </symbol>
-          </markerStyle>
-          <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-        </ComposerMapGrid>
-        <ComposerMapOverview frameMap="-1" centered="0" inverted="0" uuid="{afb799db-7e8e-4a4e-aecd-75cf8826b259}" name="Overview 1" show="1" blendMode="0">
-          <symbol alpha="0.3" clip_to_extent="1" type="fill" name="">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0"/>
-              <prop k="color" v="255,0,0,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="no"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-              <effect enabled="0" type="effectStack">
-                <effect type="dropShadow">
-                  <prop k="blend_mode" v="13"/>
-                  <prop k="blur_level" v="10"/>
-                  <prop k="color" v="0,0,0,255"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="0"/>
-                  <prop k="offset_angle" v="135"/>
-                  <prop k="offset_distance" v="2"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="offset_unit_scale" v="0,0"/>
-                  <prop k="transparency" v="0"/>
-                </effect>
-                <effect type="outerGlow">
-                  <prop k="blend_mode" v="0"/>
-                  <prop k="blur_level" v="3"/>
-                  <prop k="color1" v="0,0,255,255"/>
-                  <prop k="color2" v="0,255,0,255"/>
-                  <prop k="color_type" v="0"/>
-                  <prop k="discrete" v="0"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="0"/>
-                  <prop k="single_color" v="255,255,255,255"/>
-                  <prop k="spread" v="2"/>
-                  <prop k="spread_unit" v="MM"/>
-                  <prop k="spread_unit_scale" v="0,0"/>
-                  <prop k="transparency" v="0.5"/>
-                </effect>
-                <effect type="drawSource">
-                  <prop k="blend_mode" v="0"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="1"/>
-                  <prop k="transparency" v="0"/>
-                </effect>
-                <effect type="innerShadow">
-                  <prop k="blend_mode" v="13"/>
-                  <prop k="blur_level" v="10"/>
-                  <prop k="color" v="0,0,0,255"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="0"/>
-                  <prop k="offset_angle" v="135"/>
-                  <prop k="offset_distance" v="2"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="offset_unit_scale" v="0,0"/>
-                  <prop k="transparency" v="0"/>
-                </effect>
-                <effect type="innerGlow">
-                  <prop k="blend_mode" v="0"/>
-                  <prop k="blur_level" v="3"/>
-                  <prop k="color1" v="0,0,255,255"/>
-                  <prop k="color2" v="0,255,0,255"/>
-                  <prop k="color_type" v="0"/>
-                  <prop k="discrete" v="0"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="0"/>
-                  <prop k="single_color" v="255,255,255,255"/>
-                  <prop k="spread" v="2"/>
-                  <prop k="spread_unit" v="MM"/>
-                  <prop k="spread_unit_scale" v="0,0"/>
-                  <prop k="transparency" v="0.5"/>
-                </effect>
-              </effect>
-            </layer>
-          </symbol>
-        </ComposerMapOverview>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="1.80941" positionMode="0" positionLock="false" x="0" y="0" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="297" outlineWidth="0.3" excludeFromExports="0" uuid="{cde6d388-9612-4eee-81cf-87fe0c2f797f}" height="206.265" itemRotation="0" frame="false" pagex="0">
+        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="3.54331" positionMode="0" positionLock="false" x="0" y="0" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="298" outlineWidth="0.3" excludeFromExports="0" uuid="{e30d9433-6bae-4402-a800-8c1fd553925e}" height="211" itemRotation="0" frame="false" pagex="0">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
         </ComposerItem>
@@ -6755,7 +6375,7 @@
       <ComposerLabel valign="128" marginX="1" marginY="1" labelText="Image Date: 01-Jan-2008" htmlState="0" halign="4">
         <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="196.419" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="-3.64715e-16" y="196.419" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="23.65" outlineWidth="0.3" excludeFromExports="0" uuid="{48ae7106-453f-497a-beb6-57c5e8c296bb}" height="11.2" itemRotation="0" frame="false" pagex="-3.64715e-16">
+        <ComposerItem pagey="196.419" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="-3.64715e-16" y="196.419" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="23.65" outlineWidth="0.3" excludeFromExports="0" uuid="{48ae7106-453f-497a-beb6-57c5e8c296bb}" height="11.2" itemRotation="0" frame="false" pagex="-3.64715e-16">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="127" red="255" blue="255" green="255"/>
         </ComposerItem>
@@ -12966,7 +12586,7 @@
       </ComposerMap>
     </Composition>
   </Composer>
-  <projectlayers layercount="10">
+  <projectlayers layercount="11">
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>BDL_WMS20151020121755104</id>
       <datasource>contextualWMSLegend=0&amp;crs=EPSG:3338&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=BestDataAvailableLayer&amp;styles=&amp;url=http://wms.alaskamapped.org/bdl</datasource>
@@ -13466,7 +13086,7 @@
         </spatialrefsys>
       </srs>
       <provider encoding="System">ogr</provider>
-      <previewExpression></previewExpression>
+      <previewExpression>COALESCE( "NAME", '&lt;NULL>' )</previewExpression>
       <vectorjoins/>
       <expressionfields/>
       <map-layer-style-manager current="">
@@ -13802,6 +13422,7 @@
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
           <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
@@ -13818,6 +13439,248 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="NAME">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>MBT_Locations20151103151059392</id>
+      <datasource>D:/Upward Bound MBT/MBT_Locations.shp</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>MBT_Locations</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1296</srsid>
+          <srid>3338</srid>
+          <authid>EPSG:3338</authid>
+          <description>NAD83 / Alaska Albers</description>
+          <projectionacronym>aea</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression>COALESCE( "Name", '&lt;NULL>' )</previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Name">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Image">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Population">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="233,133,150,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <effect enabled="0" type="effectStack">
+                <effect type="dropShadow">
+                  <prop k="blend_mode" v="13"/>
+                  <prop k="blur_level" v="10"/>
+                  <prop k="color" v="0,0,0,255"/>
+                  <prop k="draw_mode" v="2"/>
+                  <prop k="enabled" v="0"/>
+                  <prop k="offset_angle" v="135"/>
+                  <prop k="offset_distance" v="2"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="offset_unit_scale" v="0,0"/>
+                  <prop k="transparency" v="0"/>
+                </effect>
+                <effect type="outerGlow">
+                  <prop k="blend_mode" v="0"/>
+                  <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
+                  <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
+                  <prop k="draw_mode" v="2"/>
+                  <prop k="enabled" v="0"/>
+                  <prop k="single_color" v="255,255,255,255"/>
+                  <prop k="spread" v="2"/>
+                  <prop k="spread_unit" v="MM"/>
+                  <prop k="spread_unit_scale" v="0,0"/>
+                  <prop k="transparency" v="0.5"/>
+                </effect>
+                <effect type="drawSource">
+                  <prop k="blend_mode" v="0"/>
+                  <prop k="draw_mode" v="2"/>
+                  <prop k="enabled" v="1"/>
+                  <prop k="transparency" v="0"/>
+                </effect>
+                <effect type="innerShadow">
+                  <prop k="blend_mode" v="13"/>
+                  <prop k="blur_level" v="10"/>
+                  <prop k="color" v="0,0,0,255"/>
+                  <prop k="draw_mode" v="2"/>
+                  <prop k="enabled" v="0"/>
+                  <prop k="offset_angle" v="135"/>
+                  <prop k="offset_distance" v="2"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="offset_unit_scale" v="0,0"/>
+                  <prop k="transparency" v="0"/>
+                </effect>
+                <effect type="innerGlow">
+                  <prop k="blend_mode" v="0"/>
+                  <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
+                  <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
+                  <prop k="draw_mode" v="2"/>
+                  <prop k="enabled" v="0"/>
+                  <prop k="single_color" v="255,255,255,255"/>
+                  <prop k="spread" v="2"/>
+                  <prop k="spread_unit" v="MM"/>
+                  <prop k="spread_unit_scale" v="0,0"/>
+                  <prop k="transparency" v="0.5"/>
+                </effect>
+              </effect>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+        <effect enabled="0" type="effectStack">
+          <effect type="dropShadow">
+            <prop k="blend_mode" v="13"/>
+            <prop k="blur_level" v="10"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="0"/>
+            <prop k="offset_angle" v="135"/>
+            <prop k="offset_distance" v="2"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="offset_unit_scale" v="0,0"/>
+            <prop k="transparency" v="0"/>
+          </effect>
+          <effect type="outerGlow">
+            <prop k="blend_mode" v="0"/>
+            <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
+            <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="0"/>
+            <prop k="single_color" v="255,255,255,255"/>
+            <prop k="spread" v="2"/>
+            <prop k="spread_unit" v="MM"/>
+            <prop k="spread_unit_scale" v="0,0"/>
+            <prop k="transparency" v="0.5"/>
+          </effect>
+          <effect type="drawSource">
+            <prop k="blend_mode" v="0"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="1"/>
+            <prop k="transparency" v="0"/>
+          </effect>
+          <effect type="innerShadow">
+            <prop k="blend_mode" v="13"/>
+            <prop k="blur_level" v="10"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="0"/>
+            <prop k="offset_angle" v="135"/>
+            <prop k="offset_distance" v="2"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="offset_unit_scale" v="0,0"/>
+            <prop k="transparency" v="0"/>
+          </effect>
+          <effect type="innerGlow">
+            <prop k="blend_mode" v="0"/>
+            <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
+            <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
+            <prop k="draw_mode" v="2"/>
+            <prop k="enabled" v="0"/>
+            <prop k="single_color" v="255,255,255,255"/>
+            <prop k="spread" v="2"/>
+            <prop k="spread_unit" v="MM"/>
+            <prop k="spread_unit_scale" v="0,0"/>
+            <prop k="transparency" v="0.5"/>
+          </effect>
+        </effect>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>Name</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <editform>.</editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform>.</annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Name">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Image">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Population">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -15156,90 +15019,8 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 attr="MBT_Site" symbollevels="0" type="categorizedSymbol">
-        <categories>
-          <category render="true" symbol="0" value="1" label="Modern_Blanket_Toss"/>
-        </categories>
+      <renderer-v2 symbollevels="0" type="singleSymbol">
         <symbols>
-          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
-            <layer pass="0" class="SimpleMarker" locked="0">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="255,247,0,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="regular_star"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="4"/>
-              <prop k="size_map_unit_scale" v="0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
-              <effect enabled="0" type="effectStack">
-                <effect type="dropShadow">
-                  <prop k="blend_mode" v="13"/>
-                  <prop k="blur_level" v="10"/>
-                  <prop k="color" v="0,0,0,255"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="0"/>
-                  <prop k="offset_angle" v="135"/>
-                  <prop k="offset_distance" v="2"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="offset_unit_scale" v="0,0"/>
-                  <prop k="transparency" v="0"/>
-                </effect>
-                <effect type="outerGlow">
-                  <prop k="blend_mode" v="0"/>
-                  <prop k="blur_level" v="3"/>
-                  <prop k="color_type" v="0"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="0"/>
-                  <prop k="single_color" v="255,255,255,255"/>
-                  <prop k="spread" v="2"/>
-                  <prop k="spread_unit" v="MM"/>
-                  <prop k="spread_unit_scale" v="0,0"/>
-                  <prop k="transparency" v="0.5"/>
-                </effect>
-                <effect type="drawSource">
-                  <prop k="blend_mode" v="0"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="1"/>
-                  <prop k="transparency" v="0"/>
-                </effect>
-                <effect type="innerShadow">
-                  <prop k="blend_mode" v="13"/>
-                  <prop k="blur_level" v="10"/>
-                  <prop k="color" v="0,0,0,255"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="0"/>
-                  <prop k="offset_angle" v="135"/>
-                  <prop k="offset_distance" v="2"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="offset_unit_scale" v="0,0"/>
-                  <prop k="transparency" v="0"/>
-                </effect>
-                <effect type="innerGlow">
-                  <prop k="blend_mode" v="0"/>
-                  <prop k="blur_level" v="3"/>
-                  <prop k="color_type" v="0"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="0"/>
-                  <prop k="single_color" v="255,255,255,255"/>
-                  <prop k="spread" v="2"/>
-                  <prop k="spread_unit" v="MM"/>
-                  <prop k="spread_unit_scale" v="0,0"/>
-                  <prop k="transparency" v="0.5"/>
-                </effect>
-              </effect>
-            </layer>
-          </symbol>
-        </symbols>
-        <source-symbol>
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
@@ -15275,7 +15056,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -15305,7 +15089,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -15317,9 +15104,7 @@
               </effect>
             </layer>
           </symbol>
-        </source-symbol>
-        <colorramp type="randomcolors" name="[source]"/>
-        <invertedcolorramp value="0"/>
+        </symbols>
         <rotation/>
         <sizescale scalemethod="diameter"/>
         <effect enabled="0" type="effectStack">
@@ -15556,6 +15341,7 @@
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
           <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
@@ -15671,7 +15457,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -15701,7 +15490,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -15732,7 +15524,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -15762,7 +15557,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -15944,13 +15742,14 @@
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
           <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -16023,6 +15822,7 @@
       <LayerSnappingList type="QStringList">
         <value>Cities_pt20140519100101222</value>
         <value>MBTSites20140520134302704</value>
+        <value>MBT_Locations20151103151059392</value>
         <value>Major_Roads_ln20140519095542460</value>
         <value>Places20140522102650779</value>
         <value>Points_Shapefile20150727142604979</value>
@@ -16032,6 +15832,7 @@
       <LayerSnappingEnabledList type="QStringList">
         <value>enabled</value>
         <value>enabled</value>
+        <value>disabled</value>
         <value>enabled</value>
         <value>enabled</value>
         <value>disabled</value>
@@ -16048,10 +15849,12 @@
         <value>2</value>
         <value>2</value>
         <value>2</value>
+        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
         <value>to_vertex</value>
         <value>to_vertex</value>
+        <value>to_vertex_and_segment</value>
         <value>to_vertex</value>
         <value>to_vertex</value>
         <value>to_vertex_and_segment</value>
@@ -16061,6 +15864,7 @@
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
